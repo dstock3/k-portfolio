@@ -1,30 +1,29 @@
 import React from 'react';
 import desc from '../data/desc.json'
 import profile from '../assets/k-profile.jpg'
+import '../css/intro.css'
 
 function Intro() {
   return(
-    <section className="intro">
-        <h1>{desc.name}</h1>
-        <h2>{desc.position}</h2>
+    <header className="intro">
+        <h1 className="intro-name">{desc.name}</h1>
+        <h2 className="intro-position">{desc.position}</h2>
 
         <div className="profile-container">
             <div className="profile-pic-container">
-                <img src={profile} alt="profile"></img>
+                <img src={profile} className="profile-pic" alt="profile"></img>
             </div>
             <div className="profile-info">
-                <p>{desc.intro}</p>
-                <p>{desc.description}</p>
+                <p className="intro-text">{desc.intro}</p>
+                <p className="intro-description">{desc.description}</p>
 
                 <div className="link-container">
-                    <a href="https://www.linkedin.com/in/kayla-stockdale-27b64448/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href={desc.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a href={`mailto: ${desc.email}`}>E-mail</a>
-
                 </div>
-
             </div>
         </div>
-    </section>
+    </header>
   )
 }
 
