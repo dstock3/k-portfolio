@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 85%;
 }
 
 .App-logo {
@@ -28,23 +33,58 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.portfolio {
+  margin: auto;
+  width: 100%;
+}
+
+.category {
+  width: 100%;
 }
 
 .row {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  width: 100%;
+  margin-left: 10px
+}
+
+.profile-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.profile-pic-container > img {
+  border-radius: 50%;
+  
+}
+
+.profile-info {
+  width: 50%;
+  margin-left: 15px;
+  border: 1px solid black;
+}
+
+.link-container {
+  padding: 15px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
 }
 
 article {
   border: 1px solid black;
-  width: 350px;
+  min-width: 325px;
   height: fit-content;
+  margin-right: 15px;
+  box-shadow: 10px 5px 5px rgb(44, 44, 44);
+}
+article > p {
+  margin-inline: 25px;
+  margin-bottom: 20px;
 }

@@ -11,7 +11,9 @@ function Portfolio() {
                     {Object.keys(content[keyName]).map((article, i)=>(
                         <article className={article}>
                             <h4>
-                                <a href={content[keyName][article].source} target="_blank" rel="noopener noreferrer">{content[keyName][article].title}</a>
+                                <a href={content[keyName][article].source} target="_blank" rel="noopener noreferrer">{
+                                    content[keyName][article].title}
+                                </a>
                             </h4>
                             <p>{content[keyName][article].client}</p>
                             {content[keyName][article].date ?
