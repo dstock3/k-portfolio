@@ -6,6 +6,21 @@
   width: 100%;
 }
 
+.select-container {
+  height: 3rem;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.select {
+  color: white;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
 .category {
   display: flex;
   flex-direction: column;
@@ -98,6 +113,12 @@
     .article-image {
       margin-top: 0;
     }
+
+    .select-container {
+      height: 115px;
+      flex-direction: column;
+      justify-content: space-evenly;
+    } 
     
 }
   
