@@ -1,58 +1,99 @@
-{
-    "Automotive Agency": {
+import autohaus from '../assets/autohaus.jpg'
+import kellyford from '../assets/kellyford.jpg'
+import ettelson from '../assets/ettelson.jpg'
+import autohaus2 from '../assets/mercedes.jpg'
+import wkford from '../assets/wkford.png'
+import wkford2 from '../assets/bronco.jpg'
+import audi from '../assets/audi.jpg'
+import wkcdjr from '../assets/rubicon.jpg'
+import audi2 from '../assets/audi2.jpg'
+import aronson from '../assets/aronson.jpg'
+
+    const automotive = {
         "autohaus": {
+            "id": 1,
             "client": "Autohaus on Edens",
             "title": "2021 Mercedes-Benz GLE SUV vs Coupe | Interior, Performance, Technology",
             "source": "https://www.autohausonedens.com/gle-suv-vs-gle-coupe/",
             "desc": "New vehicle pricing includes all offers. Tax, Title, Tags, and $300.00 Documentary Fee not included in vehicle prices shown and must be paid by the purchaser. While great effort is made to ensure the accuracy of the information on this site, errors do occur so please verify information with a customer service rep.",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": autohaus, 
+                "alt": "Autohaus logo"
+            }
         },
         "kelly": {
-            "client": "Kellyfordsales",
+            "id": 2,
+            "client": "Kelly Ford",
             "title": "2021 Ford Ranger for Sale - Melbourne, FL",
             "source": "https://www.kellyfordsales.com/research/ranger.htm",
             "desc": "If you plan on driving your Ford Ranger frequently, ensure it matches every aspect of your personality by choosing the right exterior color. Available in a number of subtle and bright hues, the 2021 Ranger offers a customized look so you can feel confident on the road.",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": kellyford, 
+                "alt": "Kelly Ford logo"
+            }
         },
         "ettleson": {
-            "client": "Ettlesonhyundai",
+            "id": 3,
+            "client": "Ettleson Hyundai",
             "title": "Hyundai Service Center Countryside, IL | Automotive Repair & Maintenance",
             "source": "https://www.ettlesonhyundai.com/service/center.htm",
-            "desc": "...",
-            "type": "pdf"
+            "desc": "Whether you need an oil change on your new Hyundai Elantra or 100,000-mile service on your well-loved Hyundai Tucson, you’ll want to bring your vehicle to a service center you can trust. Look no further than the Ettleson Hyundai auto service center in Countryside, IL.",
+            "type": "web",
+            "img": {
+                "source": ettelson, 
+                "alt": "Ettelson Hyundai logo"
+            }
         },
         "autohaus-two": {
+            "id": 4,
             "client": "Autohaus on Edens",
             "title": "2021 Mercedes-Benz E-Class | Interior, Performance, Technology",
             "source": "https://www.autohausonedens.com/research/e-class/",
-            "desc": "Disclaimer: New vehicle pricing includes all offers. Tax, Title, Tags, and $300.00 Documentary Fee not included in vehicle prices shown and must be paid by the purchaser. While great effort is made to ensure the accuracy of the information on this site, errors do occur so please verify information with a customer service rep.",
-            "type": "web"
+            "desc": "For the new model year, Mercedes-Benz designers focused on upgrading exterior accents and rethinking the general look of the 2021 Mercedes-Benz E-Class Sedan.  Below, you can view some of the key available exterior features on the new 2021 Mercedes-Benz E-Class Sedan.",
+            "type": "web",
+            "img": {
+                "source": autohaus2, 
+                "alt": "Ettelson Hyundai logo"
+            }
 
         }, 
         "wkford": {
-            "client": "Wkford",
+            "id": 5,
+            "client": "W-K Ford",
             "title": "Used Ford Cars, Trucks & SUVs for Sale in Boonville, MO | W-K Ford",
             "source": "https://www.wkford.com/used-inventory/ford.htm", 
             "desc": "Are you looking for a used Ford car, truck, or SUV? A great place to begin your search is at W-K Ford in Boonville, MO! We have a diverse range of used Ford models for drivers to choose from. Whether you're looking for a fully-loaded F-150 or a no-frills Fusion, there's a model for you in our used inventory.",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": wkford, 
+                "alt": "W-K Ford logo"
+            }
         }, 
         "wkford-two": {
-            "client": "Wkford",
+            "id": 6,
+            "client": "W-K Ford",
             "title": "2021 Ford Bronco Reveal 7/13/20 | Learn More & Reserve Yours Today",
             "source": "https://www.wkford.com/research/bronco.htm", 
             "desc": "At long last, the new 2021 Ford Bronco reveal is here! This legendary SUV, known for its off-road capabilities and rugged style, is back for the 2021 model year. And better yet, Ford Motor Company has an exciting premiere in store for fans and enthusiasts.",
-            "type": "web"
+            "type": "web", 
+            "img": {
+                "source": wkford2,
+                "alt": "The 2021 Ford Bronco"
+            }
         },
         "santa-monica-audi": {
+            "id": 7,
             "client": "Santa Monica Audi",
             "title": "The 2019 Artemis Women in Action Film Festival",
             "source": "...", 
             "desc": "Filmmakers Melanie Wise and Zac Baldwin recognized their love of female driven action movies early on in their lives. Then they took their passion a step further than moviemaking: honoring the women who create these globally beloved films by founding the Artemis Women in Action Film Festival (AWIAFF).",
             "type": "web"
-
         }, 
         "wkchevy": {
-            "client": "Wkchevy",
+            "id": 8,
+            "client": "W-K Chevy",
             "title": "2019 Chevy Blazer L vs. RS vs. Premier | W-K Chevy",
             "source": "https://www.wkchevy.com/research-blazer", 
             "desc": "Featuring bold design and a winning performance, the 2019 Chevy Blazer is the perfect upgrade for your daily drive. This SUV offers sophisticated styling, advanced technology, and so much more for you to take advantage of. Find more details on the 2019 Blazer on this page, or contact our Chevy dealership in Sedalia, MO, online or by calling (660) 530-4723 for more information.",
@@ -60,40 +101,62 @@
 
         },
         "santa-monica-audi-two": {
-            "client": "Santamonicaaudi",
+            "id": 9,
+            "client": "Santa Monica Audi",
             "title": "2019 Audi Q3 Trim Levels | Premium vs. Premium Plus vs. Prestige",
             "source": "https://www.santamonicaaudi.com/research/q3-trims.htm", 
             "desc": "Known for sophisticated style and breathtaking performance, the 2019 Audi Q3 SUV has so much to offer your daily routine. To further satisfy your needs, the Q3 is available in three diverse trim packages for you to choose from. Below, you will find more information about 2019 Audi Q3 trim levels so you can decide which one meets your needs.",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": audi,
+                "alt": "The 2019 Audi Q3"
+            }
 
         }, 
         "wkcdjr": {
-            "client": "Wkcdjr",
+            "id": 10,
+            "client": "W-K CDJR",
             "title": "2019 Jeep Wrangler Off-Road Capabilities | W-K CDJR",
             "source": "https://www.wkcdjr.com/research/wrangler-off-road.htm", 
             "desc": "Built for rugged adventures, the 2019 Jeep Wrangler is a highly-coveted off-road SUV, and for good reason. Equipped with features, systems, and accessories meant to tough out your favorite trails, the Jeep Wrangler lets you sit back and enjoy the ride.",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": wkcdjr,
+                "alt": "The 2019 Jeep Wrangler"
+            }
 
         }, 
         "santa-monica-audi-three": {
-            "client": "Santamonicaaudi",
+            "id": 11,
+            "client": "Santa Monica Audi",
             "title": "2019 Audi Q3 vs. 2019 Mercedes-Benz GLA 250 | Los Angeles, CA",
             "source": "https://www.santamonicaaudi.com/research/q3-vs-gla-250.htm", 
             "desc": "Are you looking for a luxury compact SUV, but aren't sure which model best suits your requirements? The 2019 Audi Q3 and Mercedes-Benz GLA 250 are excellent options for you to consider. They feature exceptional performance, advanced technology, and much more to offer you for a refined daily drive.",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": audi2,
+                "alt": "The 2019 Jeep Wrangler"
+            }
 
         },
         "aronson": {
+            "id": 12,
             "client": "Automotive Advertising Agency | Aronson Advertising",
             "title": "February 2019 Employee of the Month | Aronson",
             "source": "http://aronsonads.com/blog/february-2019-employee-of-the-month/", 
             "desc": "Aronson Advertising is proud to announce our February 2019 employees of the month! Each month, three outstanding team members are named an employee of the month for their hard work and dedication to their team and the company. They also receive one of the coveted employee of the month parking spots just steps from the front door.",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": aronson,
+                "alt": "February 2019 Employee of the Month"
+            }
         }
 
-    },
-    "Content Marketing": {
+    }
+
+    const marketing = {
         "personas": {
+            "id": 13,
             "client": "Automotive Advertising Agency | Aronson Advertising",
             "title": "Leveraging Customer Personas in Your Content | Aronson Advertising",
             "source":  "https://www.aronsonads.com/blog/customer-personas-in-your-content/",
@@ -102,6 +165,7 @@
             "type": "web"
         },
         "trends": {
+            "id": 14,
             "client": "Automotive Advertising Agency | Aronson Advertising",
             "title": "A Quick Look at the Biggest 2019 Content Marketing Trends | Aronson",
             "source":  "https://www.aronsonads.com/blog/2019-content-marketing-trends/",
@@ -111,6 +175,7 @@
 
         },
         "negative": {
+            "id": 15,
             "client": "Automotive Advertising Agency | Aronson Advertising",
             "title": "3 Reasons for Avoiding Negative Language in Content Marketing | Aronson",
             "source": "https://www.aronsonads.com/blog/3-reasons-avoiding-negative-language-content-marketing/",
@@ -118,9 +183,11 @@
             "date": "02/19/2018",
             "type": "web"
         }
-    },
-    "Personal Finance": {
+    }
+
+    const finance = {
         "home": {
+            "id": 16,
             "client": "The Financial Diet",
             "title": "3 Ways Working From Home Has Actually Been Better For My Mental Health",
             "source": "https://thefinancialdiet.com/3-ways-working-from-home-has-been-better-for-my-mental-health/",
@@ -129,6 +196,7 @@
             "type": "web"
         },
         "chronic": {
+            "id": 17,
             "client": "The Financial Diet",
             "title": "The Cost Of Living With Chronic Pain",
             "source": "https://thefinancialdiet.com/3-ways-working-from-home-has-been-better-for-my-mental-health/",
@@ -136,9 +204,11 @@
             "date": "01/08/2018",
             "type": "web"
         }
-    }, 
-    "Music": {
+    }
+
+    const music = {
         "segall": {
+            "id": 18,
             "client": "Pop 'stache",
             "title": "Ty Segall - Emotional Mugger - Pop 'stache",
             "source": "http://popstache.com/album-review/ty-segall-emotional-mugger/",
@@ -147,6 +217,7 @@
             "type": "web"
         }, 
         "drenge": {
+            "id": 19,
             "client": "Pop 'stache",
             "title": "Drenge - Undertow - Pop 'stache",
             "source": "http://popstache.com/album-review/drenge-undertow/",
@@ -156,6 +227,7 @@
 
         },
         "deerhunter": {
+            "id": 20,
             "client": "Pop 'stache",
             "title": "Deerhunter - Fading Frontier - Pop 'stache",
             "source": "http://popstache.com/album-review/deerhunter-fading-frontier/",
@@ -165,6 +237,7 @@
 
         },
         "unknown": {
+            "id": 21,
             "client": "Pop 'stache",
             "title": "Unknown Mortal Orchestra - Multi-Love - Pop 'stache",
             "source": "http://popstache.com/album-review/unknown-mortal-orchestra-multi-love/",
@@ -174,6 +247,7 @@
 
         },
         "sigh": {
+            "id": 22,
             "client": "The Le Sigh",
             "title": "EP: PALEHOUND - BENT NAIL",
             "source": "...",
@@ -183,6 +257,7 @@
 
         }, 
         "sigh-two": {
+            "id": 23,
             "client": "The Le Sigh",
             "title": "SPLIT: THE WHARVES / THE ROSY CRUCIFIXION",
             "source": "...",
@@ -193,4 +268,7 @@
         }
 
     }
-}
+
+const categories = [automotive, marketing, finance, music]
+
+export { categories }

@@ -2,6 +2,8 @@ import React from 'react';
 import desc from '../data/desc.json'
 import profile from '../assets/k-profile.jpg'
 import '../css/intro.css'
+import linkedImg from '../assets/linkedin_black.svg'
+import emailImg from '../assets/email_black.svg'
 
 function Intro() {
   return(
@@ -18,8 +20,12 @@ function Intro() {
                 <p className="intro-description">{desc.description}</p>
 
                 <div className="link-container">
-                    <a href={desc.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    <a href={`mailto: ${desc.email}`}>E-mail</a>
+                    <a href={desc.linkedin} target="_blank" rel="noopener noreferrer">
+                        <img className="link-icon" src={linkedImg} alt="LinkedIn icon"></img>
+                    </a>
+                    <a href={`mailto: ${desc.email}`}>
+                        <img className="link-icon" src={emailImg} alt="E-mail icon"></img>
+                    </a>
                 </div>
             </div>
         </div>

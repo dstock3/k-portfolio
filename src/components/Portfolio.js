@@ -1,38 +1,67 @@
-import React from 'react';
-import content from '../data/content.json'
+import React, {useState} from 'react';
+import { categories } from '../data/content.js'
 import '../css/portfolio.css'
 
-function Portfolio(props) {
-  return (
-    <section className="portfolio">
-        {Object.keys(content).map((keyName) => (
-            <div className="category">
-                <h3>{keyName}</h3>
-                <div className="row">
-                    {Object.keys(content[keyName]).map((article)=>(
-                        <article className="writing" id={article}>
-                            <h4 className='article-title'>
-                                <a href={content[keyName][article].source} className="article-link" target="_blank" rel="noopener noreferrer">{
-                                    content[keyName][article].title}
-                                </a>
-                            </h4>
-                            {content[keyName][article].img ? 
-                                <div className="article-image-container">
-                                    <img className="article-image" src={content[keyName][article].img.source} alt={content[keyName][article].img.alt}></img>
-                                </div> : null
-                            }
-                            <p>{content[keyName][article].client}</p>
-                            {content[keyName][article].date ?
-                                <p>{content[keyName][article].date}</p> : null
-                            }
-                            <p>{content[keyName][article].desc}</p>
-                        </article>
 
-                    ))}
+function Portfolio(props) {
+    const [select, setSelect] = useState(["Automotive Agency", "Content Marketing", "Personal Finance", "Music"])
+
+    return (
+        <section className="portfolio">
+            {categories.map((category) => (
+                <div className="category">
+                    
+                    <h3>category</h3>
+                    {Object.keys(category).length < 5 ? 
+                        <div className="row"  style={{ justifyContent: 'center'}}>
+                            {Object.keys(category).map((article)=>(
+                                <article className="writing" id={category[article].id}>
+                                    <h4 className='article-title'>
+                                        <a href={category[article].source} className="article-link" target="_blank" rel="noopener noreferrer">{
+                                            category[article].title}
+                                        </a>
+                                    </h4>
+                                    {category[article].img ? 
+                                        <div className="article-image-container">
+                                            <div className="article-image" style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url(${category[article].img.source})`}}></div>
+
+                                            {/*<img className="article-image" src={category[article].img.source} alt={category[article].img.alt}></img>*/}
+                                        </div> : null
+                                    }
+                                    <p>{category[article].client}</p>
+                                        {category[article].date ?
+                                            <p>{category[article].date}</p> : null
+                                        }
+                                    <p>{category[article].desc}</p>
+                                </article>
+                            ))}
+                    </div> :
+                    <div className="row">
+                        {Object.keys(category).map((article)=>(
+                            <article className="writing" id={category[article].id}>
+                                <h4 className='article-title'>
+                                    <a href={category[article].source} className="article-link" target="_blank" rel="noopener noreferrer">{
+                                        category[article].title}
+                                    </a>
+                                </h4>
+                                {category[article].img ? 
+                                    <div className="article-image-container">
+                                            <div className="article-image" style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url(${category[article].img.source})`}}></div>
+                                        {/*<img className="article-image" src={category[article].img.source} alt={category[article].img.alt}></img>*/}
+                                    </div> : null
+                                }
+                                <p>{category[article].client}</p>
+                                    {category[article].date ?
+                                        <p>{category[article].date}</p> : null
+                                    }
+                                <p>{category[article].desc}</p>
+                            </article>
+                        ))}
+                    </div>
+                    }
                 </div>
-            </div>
-        ))}
-    </section>
+            ))}
+        </section>
     )
 }
 

@@ -2,14 +2,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Butler', serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
     margin-bottom: 25px;
+  }
+
+  .intro > h1, h2 {
+    font-family: 'Butler', serif;
   }
   
   .intro-name {
     font-weight: 200;
     font-size: 2.5rem;
-    margin-bottom: 10px;
+    border-bottom: 2px dotted black;
+    height: 5rem;
+  }
+
+  .intro-position {
+      margin-inline: 15px;
+      margin-block-start: 0;
   }
   
   .profile-container {
@@ -17,10 +28,18 @@
     display: flex;
     justify-content: center;
     width: 50%;
+    
+  }
+
+  .profile-pic-container {
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
   }
   
   .profile-pic-container > img {
     border-radius: 50%;
+    max-width: 125px;;
   }
   
   .profile-info {
@@ -32,6 +51,8 @@
     
     border: 1px solid black;
     box-shadow: 7px 5px 5px rgba(44, 44, 44, 0.521);
+    background: rgb(233,233,233);
+    background: linear-gradient(0deg, rgba(233,233,233,1) 0%, rgba(255,255,255,1) 100%);
   }
   
   .intro-text {
@@ -45,13 +66,16 @@
   }
   
   .link-container {
-    
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
     margin-bottom: 25px;
-    width: 50%;
+    width: 40%;
   }
+
+  .link-icon {
+    width: 50px;
+}
 
 @media only screen and (max-width: 850px) {
     .profile-container {
@@ -70,6 +94,7 @@
     .intro-name {
         text-align: center;
         margin-inline: 25px;
+        height: 7rem;
         
     }
 
@@ -79,7 +104,7 @@
     }
 
     .link-container {
-        width: 75%;
+        width: 45%;
     }
     
 }
