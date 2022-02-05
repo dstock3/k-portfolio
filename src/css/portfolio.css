@@ -119,10 +119,16 @@
     }
 
     .select-container {
+      padding-top: 15px;
+      padding-bottom: 15px;
       height: 115px;
+      width: 90%;
       flex-direction: column;
       justify-content: space-evenly;
-    } 
+    }
+    .select {
+      margin-right: 0;
+    }
     
 }
   
