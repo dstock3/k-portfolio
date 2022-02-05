@@ -32,7 +32,7 @@
 .writing {
   border: 1px solid black;
   min-width: 300px;
-  max-width: 325px;
+  max-width: 17.25%;
   height: fit-content;
   margin-right: 15px;
   margin-bottom: 25px;
@@ -44,23 +44,43 @@
   flex-direction: column;
   align-items: center;
 }
+
 .writing > p {
   margin-inline: 25px;
   margin-bottom: 20px;
 }
 
+
 .article-image {
-  height: 200px;
-  width: 200px;
+  height: 215px;
+  width: 300px;
+  transition: 500ms;
 }
 
 .article-title {
   margin-inline: 20px;
+  margin-block-start: .75rem;
+  margin-block-end: .5rem;
 }
 
 .article-link {
   text-decoration: none;
   color: black;
+}
+
+.client {
+  margin-top: 10px;
+  font-size: .85rem;
+  align-self: flex-start;
+  margin-inline: 25px;
+}
+
+.dec {
+  height: 0px;
+  margin-top: 10px;
+  width: 95%;
+  border-top: rgba(0, 0, 0, 0.397) solid 1px;
+  border-bottom:  rgba(90, 90, 90, 0.322) solid 2px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -74,6 +94,9 @@
 
     .profile-pic-container {
         margin-bottom: 25px;
+    }
+    .article-image {
+      margin-top: 0;
     }
     
 }

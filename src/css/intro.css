@@ -4,18 +4,13 @@
     align-items: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
-    margin-bottom: 25px;
-  }
-
-  .intro > h1, h2 {
-    font-family: 'Butler', serif;
+    margin-bottom: 50px;
   }
   
   .intro-name {
-    font-weight: 200;
     font-size: 2.5rem;
     border-bottom: 2px dotted black;
-    height: 5rem;
+    height: 4rem;
   }
 
   .intro-position {

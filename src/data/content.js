@@ -8,8 +8,17 @@ import audi from '../assets/audi.jpg'
 import wkcdjr from '../assets/rubicon.jpg'
 import audi2 from '../assets/audi2.jpg'
 import aronson from '../assets/aronson.jpg'
+import marketing from '../assets/marketing.png'
+import desk from '../assets/desk.jpg'
+import home from '../assets/home.jpg'
+import cost from '../assets/chronic.png'
+import mugger from '../assets/mugger.jpg'
+import drenge from '../assets/drenge.jpg'
+import fading from '../assets/fading.jpg'
+import cover from '../assets/cover.jpg'
 
-    const automotive = {
+const content = {
+    "Automotive Agency": {
         "autohaus": {
             "id": 1,
             "client": "Autohaus on Edens",
@@ -57,7 +66,6 @@ import aronson from '../assets/aronson.jpg'
                 "source": autohaus2, 
                 "alt": "Ettelson Hyundai logo"
             }
-
         }, 
         "wkford": {
             "id": 5,
@@ -137,55 +145,63 @@ import aronson from '../assets/aronson.jpg'
                 "source": audi2,
                 "alt": "The 2019 Jeep Wrangler"
             }
-
         },
         "aronson": {
             "id": 12,
-            "client": "Automotive Advertising Agency | Aronson Advertising",
+            "client": "Aronson Advertising",
             "title": "February 2019 Employee of the Month | Aronson",
             "source": "http://aronsonads.com/blog/february-2019-employee-of-the-month/", 
             "desc": "Aronson Advertising is proud to announce our February 2019 employees of the month! Each month, three outstanding team members are named an employee of the month for their hard work and dedication to their team and the company. They also receive one of the coveted employee of the month parking spots just steps from the front door.",
+            "date": "02/15/2019",
             "type": "web",
             "img": {
                 "source": aronson,
                 "alt": "February 2019 Employee of the Month"
             }
         }
-
-    }
-
-    const marketing = {
+    },
+    "Content Marketing": {
         "personas": {
             "id": 13,
-            "client": "Automotive Advertising Agency | Aronson Advertising",
+            "client": "Aronson Advertising",
             "title": "Leveraging Customer Personas in Your Content | Aronson Advertising",
             "source":  "https://www.aronsonads.com/blog/customer-personas-in-your-content/",
             "desc": "Are you looking for a way to boost your content? Whether you're looking to enhance search engine results or simply want to elevate your content, developing a customer persona strategy for your brand or clients is a sure-fire way to engage your audience and get the results you're looking for.",
             "date": "09/15/2020",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": marketing,
+                "alt": "marketing illustration"
+            }
         },
         "trends": {
             "id": 14,
-            "client": "Automotive Advertising Agency | Aronson Advertising",
+            "client": "Aronson Advertising",
             "title": "A Quick Look at the Biggest 2019 Content Marketing Trends | Aronson",
             "source":  "https://www.aronsonads.com/blog/2019-content-marketing-trends/",
             "desc": "If you were to look back on content marketing strategies ten years ago, chances are you'd be scratching your head and wondering why those methods were ever used! Of course, the digital marketing landscape has changed significantly since then, and content marketers must adjust to those changes in order to create relevant, inventive, and helpful content.",
             "date": "01/29/2019",
-            "type": "web"
-
+            "type": "web",
+            "img": {
+                "source": marketing,
+                "alt": "marketing illustration"
+            }
         },
         "negative": {
             "id": 15,
-            "client": "Automotive Advertising Agency | Aronson Advertising",
+            "client": "Aronson Advertising",
             "title": "3 Reasons for Avoiding Negative Language in Content Marketing | Aronson",
             "source": "https://www.aronsonads.com/blog/3-reasons-avoiding-negative-language-content-marketing/",
             "desc":"At long last, the new 2021 Ford Bronco reveal is here! This legendary SUV, known for its off-road capabilities and rugged style, is back for the 2021 model year. And better yet, Ford Motor Company has an exciting premiere in store for fans and enthusiasts.",
             "date": "02/19/2018",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": desk,
+                "alt": "desk with various items displayed in a decorative fashion"
+            }
         }
-    }
-
-    const finance = {
+    },
+    "Personal Finance": {
         "home": {
             "id": 16,
             "client": "The Financial Diet",
@@ -193,20 +209,27 @@ import aronson from '../assets/aronson.jpg'
             "source": "https://thefinancialdiet.com/3-ways-working-from-home-has-been-better-for-my-mental-health/",
             "desc": "I am absolutely not a morning person. I struggle to get out of bed and prefer late nights over the early hours of the day. So when my employer announced that they would start letting us work from home, despite all my anxiety and uncertainty over coronavirus, I felt relieved.",
             "date": "07/09/2020",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": home,
+                "alt": "a woman working on her laptop"
+            }
         },
         "chronic": {
             "id": 17,
             "client": "The Financial Diet",
             "title": "The Cost Of Living With Chronic Pain",
-            "source": "https://thefinancialdiet.com/3-ways-working-from-home-has-been-better-for-my-mental-health/",
+            "source": "https://thefinancialdiet.com/cost-living-chronic-pain/",
             "desc": "One day, seemingly out of nowhere, the left side of my jaw began to cause me dull, aching pain. I wasn't too worried because I'd had jaw pain before. Every once in a while...",
             "date": "01/08/2018",
-            "type": "web"
+            "type": "web", 
+            "img": {
+                "source": cost,
+                "alt": "a woman with a sunset in the background"
+            }
         }
-    }
-
-    const music = {
+    },
+    "Music": {
         "segall": {
             "id": 18,
             "client": "Pop 'stache",
@@ -214,7 +237,11 @@ import aronson from '../assets/aronson.jpg'
             "source": "http://popstache.com/album-review/ty-segall-emotional-mugger/",
             "desc": "Release Date: January 22, 2016 Ty Segall releases a new record nearly each year. Whether running solo or alongside the Ty Segall Band, he has over eight studio albums to his name since 2008. This is a prolific number for a 28-year-old. Segall adds another record to his psychedelic catalog with Emotion Mugger.",
             "date": "02/18/2016",
-            "type": "web"
+            "type": "web",
+            "img": {
+                "source": mugger,
+                "alt": "album art for Ty Segall: Emotional Mugger "
+            }
         }, 
         "drenge": {
             "id": 19,
@@ -223,8 +250,11 @@ import aronson from '../assets/aronson.jpg'
             "source": "http://popstache.com/album-review/drenge-undertow/",
             "desc": "Release Date: April 7, 2015 Drenge's Undertow is only its second release, having released a self-titled album in the summer of 2013, and yet the album is exceptionally executed. Carefully formulated with heavy, echo-y guitars and powerful, non-stop drumming, Undertow is on its way to be a huge success for Drenge because of its dynamic and emotionally honest songs.",
             "date": "04/08/2015",
-            "type": "web"
-
+            "type": "web",
+            "img": {
+                "source": drenge,
+                "alt": "album art for Drenge: Undertow "
+            }
         },
         "deerhunter": {
             "id": 20,
@@ -233,7 +263,11 @@ import aronson from '../assets/aronson.jpg'
             "source": "http://popstache.com/album-review/deerhunter-fading-frontier/",
             "desc": "Release Date: October 16, 2015 Dream pop and shoegaze music have infiltrated indie music recently. With veteran bands like Slowdive and My Bloody Valentine reuniting, along with the success of more recent bands like Beach House and No Joy, the dream isn't over.",
             "date": "11/08/2015",
-            "type": "web"
+            "type": "web", 
+            "img": {
+                "source": fading,
+                "alt": "album art for Deerhunter: Fading Frontier "
+            }
 
         },
         "unknown": {
@@ -243,8 +277,11 @@ import aronson from '../assets/aronson.jpg'
             "source": "http://popstache.com/album-review/unknown-mortal-orchestra-multi-love/",
             "desc": "Release Date: May 26, 2015 Unknown Mortal Orchestra has a very off-putting band name. Is this band a group of metal dudes who love orchestral music and old video games? One could surmise this or whatever else comes to the imagination. The truth is, though, that Unknown Mortal Orchestra isn't any of the things listed above.",
             "date": "05/26/2015",
-            "type": "web"
-
+            "type": "web",
+            "img": {
+                "source": cover,
+                "alt": "album art for Unknown Mortal Orchestra: Multi-Love"
+            }
         },
         "sigh": {
             "id": 22,
@@ -268,7 +305,6 @@ import aronson from '../assets/aronson.jpg'
         }
 
     }
+}
 
-const categories = [automotive, marketing, finance, music]
-
-export { categories }
+export { content }
