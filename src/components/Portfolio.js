@@ -3,14 +3,25 @@ import { content } from '../data/content.js'
 import '../css/portfolio.css'
 
 function Portfolio(props) {
-    const [select, setSelect] = useState(["Automotive Agency", "Content Marketing", "Personal Finance", "Music"])
+    const [select, setSelect] = useState(["All", "Automotive Agency", "Content Marketing", "Personal Finance", "Music"])
     const [contentSelection, setContentSelection] = useState(content)
+
+    
+    const selectCategory = (item, content) => {
+        for (let prop in content) {
+            if (item == content[prop]) {
+                setContentSelection(content[prop])
+                console.log(content)
+            }
+        }
+    }
+    
 
     return (
         <section className="portfolio">
             <div className="select-container">
                 {select.map((item)=> (
-                    <div className="select">{item}</div>
+                    <div className="select" onClick={()=> selectCategory(item, contentSelection)}>{item}</div>
                 ))}
             </div>
             {Object.keys(contentSelection).map((category) => (

@@ -19,6 +19,7 @@
   color: white;
   margin-right: 30px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .category {
@@ -46,8 +47,8 @@
 
 .writing {
   border: 1px solid black;
-  min-width: 300px;
-  max-width: 17.25%;
+  min-width: 350px;
+  max-width: 20%;
   height: fit-content;
   margin-right: 15px;
   margin-bottom: 25px;
@@ -67,8 +68,8 @@
 
 
 .article-image {
-  height: 215px;
-  width: 300px;
+  height: 250px;
+  width: 350px;
   transition: 500ms;
 }
 
@@ -105,6 +106,7 @@
         
     .writing {
         margin-right: 0;
+        min-width: 300px;
     }
 
     .profile-pic-container {
@@ -112,6 +114,8 @@
     }
     .article-image {
       margin-top: 0;
+      height: 215px;
+      width: 300px;
     }
 
     .select-container {
