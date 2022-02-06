@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/k-portfolio/static/css/main.b01c57f3.css",
-    "main.js": "/k-portfolio/static/js/main.b761e7da.js",
+    "main.css": "/k-portfolio/static/css/main.21521174.css",
+    "main.js": "/k-portfolio/static/js/main.a9cf7b7e.js",
     "static/media/banner.webp": "/k-portfolio/static/media/banner.a85e9eec0177589a257c.webp",
     "static/media/SantaMonicaAudi.pdf": "/k-portfolio/static/media/SantaMonicaAudi.05edc128c7e7dde3b0b2.pdf",
     "static/media/palehound.pdf": "/k-portfolio/static/media/palehound.2b9a6f5c483910a973da.pdf",
@@ -23,18 +23,20 @@
     "static/media/cover.webp": "/k-portfolio/static/media/cover.831a56887d65d96e8ee6.webp",
     "static/media/marketing.webp": "/k-portfolio/static/media/marketing.bd2e89784a9427daa942.webp",
     "static/media/aronson.webp": "/k-portfolio/static/media/aronson.ff943ea215d5380bf14c.webp",
+    "static/media/artemis.webp": "/k-portfolio/static/media/artemis.3d36564233ca948cecfc.webp",
     "static/media/k-profile.webp": "/k-portfolio/static/media/k-profile.47d380eb1e1616ab7d1c.webp",
     "static/media/wkford.webp": "/k-portfolio/static/media/wkford.2a80f5dcd0cdd5bc76d8.webp",
+    "static/media/sigh.webp": "/k-portfolio/static/media/sigh.e6ce36a0eaeb0fa09650.webp",
     "static/media/autohaus.webp": "/k-portfolio/static/media/autohaus.fade4105c8f78b25b853.webp",
     "static/media/linkedin_black.svg": "/k-portfolio/static/media/linkedin_black.3d23b46161202d555ad4b7cb41cc79c5.svg",
     "static/media/linkedin_white.svg": "/k-portfolio/static/media/linkedin_white.3586c77f5b58ea8e4e8f6039628923ba.svg",
     "index.html": "/k-portfolio/index.html",
     "static/media/email_black.svg": "/k-portfolio/static/media/email_black.7be6e02d7bdf46a5f64e94b42b255696.svg",
-    "main.b01c57f3.css.map": "/k-portfolio/static/css/main.b01c57f3.css.map",
-    "main.b761e7da.js.map": "/k-portfolio/static/js/main.b761e7da.js.map"
+    "main.21521174.css.map": "/k-portfolio/static/css/main.21521174.css.map",
+    "main.a9cf7b7e.js.map": "/k-portfolio/static/js/main.a9cf7b7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b01c57f3.css",
-    "static/js/main.b761e7da.js"
+    "static/css/main.21521174.css",
+    "static/js/main.a9cf7b7e.js"
   ]
 }
