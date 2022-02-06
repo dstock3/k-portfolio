@@ -99,11 +99,12 @@
   color: black;
 }
 
-.client {
+.article-info-container {
   margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
   font-size: .85rem;
-  align-self: flex-start;
-  margin-inline: 25px;
 }
 
 .dec {

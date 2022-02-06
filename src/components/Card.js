@@ -11,10 +11,10 @@ function Card({article}) {
                 </div> 
             </a> : null
         }
-        <div className="client">
-            {article.client}
+        <div className="article-info-container">
+            <div className="client">{article.client}</div>
             {article.date ?
-                <> | {article.date}</> : null
+                <div className="date">{article.date}</div> : null
             }
         </div>
         <div className="dec"></div>

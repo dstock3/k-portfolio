@@ -17,6 +17,8 @@ import drenge from '../assets/drenge.webp'
 import fading from '../assets/fading.webp'
 import cover from '../assets/cover.webp'
 import chevy from '../assets/blazer.webp'
+import sigh from '../assets/sigh.webp'
+import artemis from '../assets/artemis.webp'
 import audiPDF from '../assets/SantaMonicaAudi.pdf'
 import wharvesPDF from '../assets/Wharves.pdf'
 import palehoundPDF from '../assets/palehound.pdf'
@@ -102,7 +104,11 @@ const content = {
             "title": "The 2019 Artemis Women in Action Film Festival",
             "source": audiPDF, 
             "desc": "Filmmakers Melanie Wise and Zac Baldwin recognized their love of female driven action movies early on in their lives. Then they took their passion a step further than moviemaking: honoring the women who create these globally beloved films by founding the Artemis Women in Action Film Festival (AWIAFF).",
-            "type": "pdf"
+            "type": "pdf",
+            "img": {
+                "source": artemis,
+                "alt": "Banner for the Artemis Women in Action Film Festival"
+            }
         }, 
         "wkchevy": {
             "id": 8,
@@ -299,7 +305,11 @@ const content = {
             "source": palehoundPDF,
             "desc": "Ellen Kempner’s voice is one you’ve never heard before. It’s soft and sweet but also mature and honest. It sounds like the voice of a woman in her mid-to-late twenties but in reality, it’s projected from the throat of a nineteen-year-old. Kempner’s voice is not the only thing that is distinctive of her band, Palehound.",
             "date": "11/21/2013",
-            "type": "pdf"
+            "type": "pdf",
+            "img": {
+                "source": sigh,
+                "alt": "the Le Sigh logo"
+            }
 
         }, 
         "sigh-two": {
@@ -309,7 +319,11 @@ const content = {
             "source": wharvesPDF,
             "desc": "When I sat down to listen to the new split LP from The Wharves and The Rosy Crucifixion, I immediately knew that this was an album I’d gush about to my friends. Both bands have written some of the most refreshing songs I’ve heard in a long time. I’m genuinely excited about this album and I basically want to put it on repeat all day, every day. It’s just that good. The album is described on Soft Power Records’ website as a “total beast”, and rightly so.",
             "date": "10/24/2013",
-            "type": "pdf"
+            "type": "pdf",
+            "img": {
+                "source": sigh,
+                "alt": "the Le Sigh logo"
+            }
 
         }
 
