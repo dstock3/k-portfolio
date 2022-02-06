@@ -7,7 +7,7 @@
 }
 
 .select-container {
-  height: 3rem;
+  height: 4rem;
   width: 85%;
   display: flex;
   justify-content: center;
@@ -18,8 +18,22 @@
 .select {
   color: white;
   margin-right: 30px;
-  font-weight: bold;
+  
   cursor: pointer;
+  padding: 10px;
+  border-left: 2px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 2px;
+}
+
+.enabled {
+  border: 1px solid white;
+  font-weight: 600;
+  background: rgb(45,45,45);
+  background: -moz-linear-gradient(270deg, rgba(45,45,45,1) 0%, rgba(24,24,24,1) 100%);
+  background: -webkit-linear-gradient(270deg, rgba(45,45,45,1) 0%, rgba(24,24,24,1) 100%);
+  background: linear-gradient(270deg, rgba(45,45,45,1) 0%, rgba(24,24,24,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2d2d2d",endColorstr="#181818",GradientType=1);
 }
 
 .category {
@@ -27,9 +41,11 @@
   flex-direction: column;
   align-items: center;
   width: 90%;
+  
 }
 
 .category > h3 {
+    font-size: 1.5rem;
     height: 2rem;
     text-align: center;
     width: 85%;
@@ -70,7 +86,6 @@
 .article-image {
   height: 250px;
   width: 350px;
-  transition: 500ms;
 }
 
 .article-title {
@@ -109,9 +124,6 @@
         min-width: 300px;
     }
 
-    .profile-pic-container {
-        margin-bottom: 25px;
-    }
     .article-image {
       margin-top: 0;
       height: 215px;
@@ -121,7 +133,7 @@
     .select-container {
       padding-top: 15px;
       padding-bottom: 15px;
-      height: 115px;
+      height: fit-content;
       width: 90%;
       flex-direction: column;
       justify-content: space-evenly;

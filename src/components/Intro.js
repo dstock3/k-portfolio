@@ -12,9 +12,11 @@ function Intro() {
         <h2 className="intro-position">{desc.position}</h2>
 
         <div className="profile-container">
+            {/*
             <div className="profile-pic-container">
                 <img src={profile} className="profile-pic" alt="profile"></img>
             </div>
+            */}
             <div className="profile-info">
                 <p className="intro-text">{desc.intro}</p>
                 <p className="intro-description">{desc.description}</p>
