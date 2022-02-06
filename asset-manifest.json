@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/k-portfolio/static/css/main.b01c57f3.css",
-    "main.js": "/k-portfolio/static/js/main.1e18cb75.js",
+    "main.js": "/k-portfolio/static/js/main.b761e7da.js",
     "static/media/banner.webp": "/k-portfolio/static/media/banner.a85e9eec0177589a257c.webp",
     "static/media/SantaMonicaAudi.pdf": "/k-portfolio/static/media/SantaMonicaAudi.05edc128c7e7dde3b0b2.pdf",
     "static/media/palehound.pdf": "/k-portfolio/static/media/palehound.2b9a6f5c483910a973da.pdf",
@@ -31,10 +31,10 @@
     "index.html": "/k-portfolio/index.html",
     "static/media/email_black.svg": "/k-portfolio/static/media/email_black.7be6e02d7bdf46a5f64e94b42b255696.svg",
     "main.b01c57f3.css.map": "/k-portfolio/static/css/main.b01c57f3.css.map",
-    "main.1e18cb75.js.map": "/k-portfolio/static/js/main.1e18cb75.js.map"
+    "main.b761e7da.js.map": "/k-portfolio/static/js/main.b761e7da.js.map"
   },
   "entrypoints": [
     "static/css/main.b01c57f3.css",
-    "static/js/main.1e18cb75.js"
+    "static/js/main.b761e7da.js"
   ]
 }
