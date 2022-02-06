@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Card({article}) {
   return (
@@ -18,7 +19,9 @@ function Card({article}) {
         </div>
         <div className="dec"></div>
         {article.type === "pdf" ?
-            null :
+            <h4 className='article-title'>
+                <Link className="article-link" target="_blank" rel="noopener noreferrer" to={`/${article.id}`}>{article.title}</Link>
+            </h4> :
             <h4 className='article-title'>
                 <a href={article.source} className="article-link" target="_blank" rel="noopener noreferrer">
                     {article.title}

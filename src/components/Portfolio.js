@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import Card from './Card.js';
 import { content } from '../data/content.js'
 import '../css/portfolio.css'
-import { Document, Page } from 'react-pdf';
 
 function Portfolio(props) {
     const [select, setSelect] = useState([{text: "All", id: "all"}, {text: "Automotive Agency", id: "auto"}, {text: "Content Marketing", id: "marketing"}, {text: "Personal Finance", id: "finance"}, {text: "Music", id: "music"}])
