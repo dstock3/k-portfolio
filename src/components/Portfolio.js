@@ -5,11 +5,11 @@ import '../css/portfolio.css'
 import { Document, Page } from 'react-pdf';
 
 function Portfolio(props) {
-    const [select, setSelect] = useState(["All", "Automotive Agency", "Content Marketing", "Personal Finance", "Music"])
-    const [auto, setAuto] = useState(content[select[1]])
-    const [marketing, setMarketing] = useState(content[select[2]])
-    const [finance, setFinance] = useState(content[select[3]])
-    const [music, setMusic] = useState(content[select[4]])
+    const [select, setSelect] = useState([{text: "All", id: "all"}, {text: "Automotive Agency", id: "auto"}, {text: "Content Marketing", id: "marketing"}, {text: "Personal Finance", id: "finance"}, {text: "Music", id: "music"}])
+    const [auto, setAuto] = useState(content[select[1].text])
+    const [marketing, setMarketing] = useState(content[select[2].text])
+    const [finance, setFinance] = useState(content[select[3].text])
+    const [music, setMusic] = useState(content[select[4].text])
     const [contentSelection, setContentSelection] = useState(content)
     const selection = useRef(false);
     const categoryHead = useRef(null)
@@ -23,22 +23,22 @@ function Portfolio(props) {
             case "Automotive Agency":
                 setContentSelection(auto);
                 selection.current = true
-                categoryHead.current = select[1]
+                categoryHead.current = select[1].text
                 break;
             case "Content Marketing":
                 setContentSelection(marketing);
-                categoryHead.current = select[2]
+                categoryHead.current = select[2].text
                 selection.current = true
                 break;
             case "Personal Finance":
                 setContentSelection(finance);
-                categoryHead.current = select[3]
+                categoryHead.current = select[3].text
                 selection.current = true
                 break;
             case "Music":
                 setContentSelection(music);
                 selection.current = true
-                categoryHead.current = select[4]
+                categoryHead.current = select[4].text
                 break;
             default:
                 setContentSelection(content);
@@ -64,13 +64,10 @@ function Portfolio(props) {
 
     return (
         <section className="portfolio">
-
             <div className="select-container">
-                <div className="select" id="all" onClick={()=> selectCategory(select[0])}>{select[0]}</div>
-                <div className="select" id="auto" onClick={()=> selectCategory(select[1])}>{select[1]}</div>
-                <div className="select" id="marketing" onClick={()=> selectCategory(select[2])}>{select[2]}</div>
-                <div className="select" id="finance" onClick={()=> selectCategory(select[3])}>{select[3]}</div>
-                <div className="select" id="music" onClick={()=> selectCategory(select[4])}>{select[4]}</div>
+                {select.map((item) => (
+                    <div className="select" id={item.id} onClick={()=> selectCategory(item.text)}>{item.text}</div>
+                ))}
             </div>
 
             {!selection.current ?
