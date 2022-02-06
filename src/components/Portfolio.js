@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import Card from './Card.js';
 import { content } from '../data/content.js'
 import '../css/portfolio.css'
 import { Document, Page } from 'react-pdf';
@@ -79,31 +80,7 @@ function Portfolio(props) {
                             <h3>{category}</h3>
                                 <div className="row"  style={{ justifyContent: 'center'}}>
                                     {Object.keys(content[category]).map((article)=>(
-                                        <article className="writing" id={content[category][article].id}>
-                                            {content[category][article].img ? 
-                                                <a href={content[category][article].source} className="img-link" target="_blank" rel="noopener noreferrer">
-                                                    <div className="article-image-container">
-                                                        <div className="article-image" alt={content[category][article].img.alt} style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url(${content[category][article].img.source})`}}></div>
-                                                    </div> 
-                                                </a> : null
-                                            }
-                                            <div className="client">
-                                                {content[category][article].client}
-                                                {content[category][article].date ?
-                                                    <> | {content[category][article].date}</> : null
-                                                }
-                                            </div>
-                                            <div className="dec"></div>
-                                            {content[category][article].type === "pdf" ?
-                                                null :
-                                                <h4 className='article-title'>
-                                                    <a href={content[category][article].source} className="article-link" target="_blank" rel="noopener noreferrer">{
-                                                        content[category][article].title}
-                                                    </a>
-                                                </h4>
-                                            }
-                                            <p>{content[category][article].desc}</p>
-                                        </article>
+                                        <Card article={content[category][article]} />
                                     ))}
                                 </div>
                         </div>
@@ -113,31 +90,7 @@ function Portfolio(props) {
                     <h3>{categoryHead.current}</h3>
                     <div className="row"  style={{ justifyContent: 'center'}}>
                         {Object.keys(contentSelection).map((article)=>(
-                            <article className="writing" id={contentSelection[article].id}>
-                                {contentSelection[article].img ? 
-                                    <a href={contentSelection[article].source} className="img-link" target="_blank" rel="noopener noreferrer">
-                                        <div className="article-image-container">
-                                            <div className="article-image" alt={contentSelection[article].img.alt} style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url(${contentSelection[article].img.source})`}}></div>
-                                        </div> 
-                                    </a> : null
-                                }
-                                <div className="client">
-                                    {contentSelection[article].client}
-                                    {contentSelection[article].date ?
-                                        <> | {contentSelection[article].date}</> : null
-                                    }
-                                </div>
-                                <div className="dec"></div>
-                                {contentSelection[article].type === "pdf" ?
-                                    null :
-                                    <h4 className='article-title'>
-                                        <a href={contentSelection[article].source} className="article-link" target="_blank" rel="noopener noreferrer">{
-                                            contentSelection[article].title}
-                                        </a>
-                                    </h4>
-                                }
-                                <p>{contentSelection[article].desc}</p>
-                            </article>
+                            <Card article={contentSelection[article]} />
                         ))}
                     </div>
                 </div>
