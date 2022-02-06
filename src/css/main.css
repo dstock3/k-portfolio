@@ -18,7 +18,7 @@ body {
 }
 
 .banner {
-  background-image: url('../assets/banner.jpeg');
+  background-image: url('../assets/banner.webp');
   background-size: cover;
   height: 16rem;
   width: 100%;

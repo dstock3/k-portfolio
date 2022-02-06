@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { content } from '../data/content.js'
 import '../css/portfolio.css'
+import { Document, Page } from 'react-pdf';
 
 function Portfolio(props) {
     const [select, setSelect] = useState(["All", "Automotive Agency", "Content Marketing", "Personal Finance", "Music"])
@@ -44,13 +45,14 @@ function Portfolio(props) {
                                         }
                                     </div>
                                     <div className="dec"></div>
-                                    <h4 className='article-title'>
-                                        <a href={contentSelection[category][article].source} className="article-link" target="_blank" rel="noopener noreferrer">{
-                                            contentSelection[category][article].title}
-                                        </a>
-                                    </h4>
-                                    
-
+                                    {contentSelection[category][article].type === "pdf" ?
+                                        null :
+                                        <h4 className='article-title'>
+                                            <a href={contentSelection[category][article].source} className="article-link" target="_blank" rel="noopener noreferrer">{
+                                                contentSelection[category][article].title}
+                                            </a>
+                                        </h4>
+                                    }
                                     <p>{contentSelection[category][article].desc}</p>
                                 </article>
                             ))}

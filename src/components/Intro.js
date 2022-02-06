@@ -1,6 +1,6 @@
 import React from 'react';
 import desc from '../data/desc.json'
-import profile from '../assets/k-profile.jpg'
+import profile from '../assets/k-profile.webp'
 import '../css/intro.css'
 import linkedImg from '../assets/linkedin_black.svg'
 import emailImg from '../assets/email_black.svg'

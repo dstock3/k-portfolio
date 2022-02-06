@@ -1,21 +1,26 @@
-import autohaus from '../assets/autohaus.jpg'
-import kellyford from '../assets/kellyford.jpg'
-import ettelson from '../assets/ettelson.jpg'
-import autohaus2 from '../assets/mercedes.jpg'
-import wkford from '../assets/wkford.png'
-import wkford2 from '../assets/bronco.jpg'
-import audi from '../assets/audi.jpg'
-import wkcdjr from '../assets/rubicon.jpg'
-import audi2 from '../assets/audi2.jpg'
-import aronson from '../assets/aronson.jpg'
-import marketing from '../assets/marketing.png'
-import desk from '../assets/desk.jpg'
-import home from '../assets/home.jpg'
-import cost from '../assets/chronic.png'
-import mugger from '../assets/mugger.jpg'
-import drenge from '../assets/drenge.jpg'
-import fading from '../assets/fading.jpg'
-import cover from '../assets/cover.jpg'
+import autohaus from '../assets/autohaus.webp'
+import kellyford from '../assets/kellyford.webp'
+import ettelson from '../assets/ettelson.webp'
+import autohaus2 from '../assets/mercedes.webp'
+import wkford from '../assets/wkford.webp'
+import wkford2 from '../assets/bronco.webp'
+import audi from '../assets/audi.webp'
+import wkcdjr from '../assets/rubicon.webp'
+import audi2 from '../assets/audi2.webp'
+import aronson from '../assets/aronson.webp'
+import marketing from '../assets/marketing.webp'
+import desk from '../assets/desk.webp'
+import home from '../assets/home.webp'
+import cost from '../assets/chronic.webp'
+import mugger from '../assets/mugger.webp'
+import drenge from '../assets/drenge.webp'
+import fading from '../assets/fading.webp'
+import cover from '../assets/cover.webp'
+import chevy from '../assets/blazer.webp'
+import audiPDF from '../assets/SantaMonicaAudi.pdf'
+import wharvesPDF from '../assets/Wharves.pdf'
+import palehoundPDF from '../assets/palehound.pdf'
+
 
 const content = {
     "Automotive Agency": {
@@ -95,9 +100,9 @@ const content = {
             "id": 7,
             "client": "Santa Monica Audi",
             "title": "The 2019 Artemis Women in Action Film Festival",
-            "source": "...", 
+            "source": audiPDF, 
             "desc": "Filmmakers Melanie Wise and Zac Baldwin recognized their love of female driven action movies early on in their lives. Then they took their passion a step further than moviemaking: honoring the women who create these globally beloved films by founding the Artemis Women in Action Film Festival (AWIAFF).",
-            "type": "web"
+            "type": "pdf"
         }, 
         "wkchevy": {
             "id": 8,
@@ -105,7 +110,11 @@ const content = {
             "title": "2019 Chevy Blazer L vs. RS vs. Premier | W-K Chevy",
             "source": "https://www.wkchevy.com/research-blazer", 
             "desc": "Featuring bold design and a winning performance, the 2019 Chevy Blazer is the perfect upgrade for your daily drive. This SUV offers sophisticated styling, advanced technology, and so much more for you to take advantage of. Find more details on the 2019 Blazer on this page, or contact our Chevy dealership in Sedalia, MO, online or by calling (660) 530-4723 for more information.",
-            "type": "web"
+            "type": "web", 
+            "img": {
+                "source": chevy,
+                "alt": "The 2019 Chevy Blazer"
+            }
 
         },
         "santa-monica-audi-two": {
@@ -287,7 +296,7 @@ const content = {
             "id": 22,
             "client": "The Le Sigh",
             "title": "EP: PALEHOUND - BENT NAIL",
-            "source": "...",
+            "source": palehoundPDF,
             "desc": "Ellen Kempner’s voice is one you’ve never heard before. It’s soft and sweet but also mature and honest. It sounds like the voice of a woman in her mid-to-late twenties but in reality, it’s projected from the throat of a nineteen-year-old. Kempner’s voice is not the only thing that is distinctive of her band, Palehound.",
             "date": "11/21/2013",
             "type": "pdf"
@@ -297,7 +306,7 @@ const content = {
             "id": 23,
             "client": "The Le Sigh",
             "title": "SPLIT: THE WHARVES / THE ROSY CRUCIFIXION",
-            "source": "...",
+            "source": wharvesPDF,
             "desc": "When I sat down to listen to the new split LP from The Wharves and The Rosy Crucifixion, I immediately knew that this was an album I’d gush about to my friends. Both bands have written some of the most refreshing songs I’ve heard in a long time. I’m genuinely excited about this album and I basically want to put it on repeat all day, every day. It’s just that good. The album is described on Soft Power Records’ website as a “total beast”, and rightly so.",
             "date": "10/24/2013",
             "type": "pdf"
