@@ -1,9 +1,5 @@
 import React from 'react';
 import desc from '../data/desc.json'
-<<<<<<< HEAD
-=======
-import profile from '../assets/k-profile.webp'
->>>>>>> 3dbd492619efb9ca193e085150cb6fbd3e3c6b5e
 import '../css/intro.css'
 import linkedImg from '../assets/linkedin_black.svg'
 import emailImg from '../assets/email_black.svg'
@@ -15,14 +11,6 @@ function Intro() {
         <h2 className="intro-position">{desc.position}</h2>
 
         <div className="profile-container">
-<<<<<<< HEAD
-=======
-            {/*
-            <div className="profile-pic-container">
-                <img src={profile} className="profile-pic" alt="profile"></img>
-            </div>
-            */}
->>>>>>> 3dbd492619efb9ca193e085150cb6fbd3e3c6b5e
             <div className="profile-info">
                 <p className="intro-text">{desc.intro}</p>
                 <p className="intro-description">{desc.description}</p>
