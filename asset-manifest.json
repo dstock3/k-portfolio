@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/k-portfolio/static/css/main.21521174.css",
-    "main.js": "/k-portfolio/static/js/main.73153942.js",
+    "main.js": "/k-portfolio/static/js/main.c58b1c31.js",
     "static/media/banner.webp": "/k-portfolio/static/media/banner.a85e9eec0177589a257c.webp",
     "static/media/SantaMonicaAudi.pdf": "/k-portfolio/static/media/SantaMonicaAudi.05edc128c7e7dde3b0b2.pdf",
     "static/media/palehound.pdf": "/k-portfolio/static/media/palehound.2b9a6f5c483910a973da.pdf",
     "static/media/Wharves.pdf": "/k-portfolio/static/media/Wharves.3729113dfd150d1aa1a1.pdf",
     "static/media/rubicon.webp": "/k-portfolio/static/media/rubicon.feface35c800edbe9f3c.webp",
+    "static/media/cruz.webp": "/k-portfolio/static/media/cruz.5040f849913eb9e8dc7b.webp",
+    "static/media/benz.webp": "/k-portfolio/static/media/benz.56b5f006a39ab1b43dfb.webp",
     "static/media/blazer.webp": "/k-portfolio/static/media/blazer.d8883665844cf26a7c4b.webp",
     "static/media/mercedes.webp": "/k-portfolio/static/media/mercedes.a029aa836a4d7e35f18c.webp",
+    "static/media/canyon.webp": "/k-portfolio/static/media/canyon.24e69e7e741dbd13a9e0.webp",
     "static/media/bronco.webp": "/k-portfolio/static/media/bronco.0f5d4dcdd5dd01c314f1.webp",
     "static/media/fading.webp": "/k-portfolio/static/media/fading.0fe4447660352fdd3acd.webp",
     "static/media/audi.webp": "/k-portfolio/static/media/audi.bd78b7917ff33e623851.webp",
@@ -27,15 +30,16 @@
     "static/media/wkford.webp": "/k-portfolio/static/media/wkford.2a80f5dcd0cdd5bc76d8.webp",
     "static/media/sigh.webp": "/k-portfolio/static/media/sigh.e6ce36a0eaeb0fa09650.webp",
     "static/media/autohaus.webp": "/k-portfolio/static/media/autohaus.fade4105c8f78b25b853.webp",
+    "static/media/ellis.webp": "/k-portfolio/static/media/ellis.62912328fcbb08cd3403.webp",
     "static/media/linkedin_black.svg": "/k-portfolio/static/media/linkedin_black.3d23b46161202d555ad4b7cb41cc79c5.svg",
     "static/media/linkedin_white.svg": "/k-portfolio/static/media/linkedin_white.3586c77f5b58ea8e4e8f6039628923ba.svg",
     "index.html": "/k-portfolio/index.html",
     "static/media/email_black.svg": "/k-portfolio/static/media/email_black.7be6e02d7bdf46a5f64e94b42b255696.svg",
     "main.21521174.css.map": "/k-portfolio/static/css/main.21521174.css.map",
-    "main.73153942.js.map": "/k-portfolio/static/js/main.73153942.js.map"
+    "main.c58b1c31.js.map": "/k-portfolio/static/js/main.c58b1c31.js.map"
   },
   "entrypoints": [
     "static/css/main.21521174.css",
-    "static/js/main.73153942.js"
+    "static/js/main.c58b1c31.js"
   ]
 }
