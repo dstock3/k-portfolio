@@ -1,0 +1,147 @@
+.portfolio {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.select-container {
+  height: 4rem;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.select {
+  color: white;
+  margin-right: 30px;
+  
+  cursor: pointer;
+  padding: 10px;
+  border-left: 2px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 2px;
+}
+
+.enabled {
+  border: 1px solid white;
+  font-weight: 600;
+  background: rgb(45,45,45);
+  background: -moz-linear-gradient(270deg, rgba(45,45,45,1) 0%, rgba(24,24,24,1) 100%);
+  background: -webkit-linear-gradient(270deg, rgba(45,45,45,1) 0%, rgba(24,24,24,1) 100%);
+  background: linear-gradient(270deg, rgba(45,45,45,1) 0%, rgba(24,24,24,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2d2d2d",endColorstr="#181818",GradientType=1);
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  
+}
+
+.category > h3 {
+    font-size: 1.5rem;
+    height: 2rem;
+    text-align: center;
+    width: 85%;
+    border-bottom: 2px dotted black;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  width: 100%;
+  
+}
+
+.writing {
+  border: 1px solid black;
+  min-width: 350px;
+  max-width: 20%;
+  height: fit-content;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  box-shadow: 7px 5px 5px rgba(44, 44, 44, 0.521);
+  background: rgb(233,233,233);
+  background: linear-gradient(0deg, rgba(233,233,233,1) 0%, rgba(255,255,255,1) 100%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.writing > p {
+  margin-inline: 25px;
+  margin-bottom: 20px;
+}
+
+
+.article-image {
+  height: 250px;
+  width: 350px;
+}
+
+.article-title {
+  margin-inline: 20px;
+  margin-block-start: .75rem;
+  margin-block-end: .5rem;
+}
+
+.article-link {
+  text-decoration: none;
+  color: black;
+}
+
+.article-info-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  font-size: .85rem;
+}
+
+.dec {
+  height: 0px;
+  margin-top: 10px;
+  width: 95%;
+  border-top: rgba(0, 0, 0, 0.397) solid 1px;
+  border-bottom:  rgba(90, 90, 90, 0.322) solid 2px;
+}
+
+@media only screen and (max-width: 850px) {
+    .row {
+        justify-content: center;
+    }
+        
+    .writing {
+        margin-right: 0;
+        min-width: 300px;
+    }
+
+    .article-image {
+      margin-top: 0;
+      height: 215px;
+      width: 300px;
+    }
+
+    .select-container {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      height: fit-content;
+      width: 90%;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    .select {
+      margin-right: 0;
+    }
+    
+}
+  
