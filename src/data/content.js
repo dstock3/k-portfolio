@@ -19,13 +19,64 @@ import cover from '../assets/cover.webp'
 import chevy from '../assets/blazer.webp'
 import sigh from '../assets/sigh.webp'
 import artemis from '../assets/artemis.webp'
+import canyon from '../assets/canyon.webp'
+import cruz from '../assets/cruz.webp'
+import ellis from '../assets/ellis.webp'
+import benz from '../assets/benz.webp'
 import audiPDF from '../assets/SantaMonicaAudi.pdf'
 import wharvesPDF from '../assets/Wharves.pdf'
 import palehoundPDF from '../assets/palehound.pdf'
 
-
 const content = {
     "Automotive Agency": {
+        "edens": {
+            "id": 97,
+            "client": "Autohaus on Edens",
+            "title": "2022 Mercedes-Benz GLS SUV Model Information",
+            "source": "https://www.autohausonedens.com/research/gls/",
+            "desc": "Interested in a premium SUV with roomy passenger space, advanced technology, and impressive performance? The 2022 Mercedes-Benz GLS SUV is a great choice for all types of drivers. To see if it’s the perfect luxury SUV for your needs, read through the in-depth information from the Autohaus on Edens team.",
+            "type": "web",
+            "img": {
+                "source": benz, 
+                "alt": "the 2022 Mercedes-Benz GLS SUV"
+            }
+        },
+        "glendale": {
+            "id": 98,
+            "client": "Glendale Dodge Chrysler Jeep Ram",
+            "title": "2022 Hyundai Santa Cruz: SE vs. SEL vs. Limited",
+            "source": "https://www.glendaledodgecalifornia.com/research-jeep-accessories.html",
+            "desc": "Are you a Jeep owner looking to customize your vehicle? Look no further than Mopar® Jeep accessories available at Glendale Dodge Chrysler Jeep Ram. From all-weather floor mats to cargo area solutions, you can find the perfect accessory for your Jeep. Learn more about Jeep accessories for sale by reading on.",
+            "type": "web",
+            "img": {
+                "source": ellis, 
+                "alt": "Ellis logo"
+            }
+        },
+        "amato": {
+            "id": 99,
+            "client": "Amato Hyundai of Glendale",
+            "title": "2022 Hyundai Santa Cruz: SE vs. SEL vs. Limited",
+            "source": "https://www.amatohyundai.com/research/santa-cruz-trims/",
+            "desc": "Meet your match with the 2022 Hyundai Santa Cruz. This first-ever sport adventure vehicle from Hyundai is the perfect blend of SUV and pickup truck, thanks to a spacious bed, roof rails, roomy seating, and much more. Available in four trim packages, you can choose the Santa Cruz that speaks to you. Learn more about the 2022 Santa Cruz trims by reading through our in-depth research.",
+            "type": "web",
+            "img": {
+                "source": cruz, 
+                "alt": "the 2022 Hyundai Santa Cruz"
+            }
+        },
+        "buick": {
+            "id": 0,
+            "client": "Mike Haggerty Buick GMC",
+            "title": "2022 GMC Canyon Model Information in Oak Lawn, IL",
+            "source": "https://www.haggertycars.com/research-canyon",
+            "desc": "Interested in driving a new small pickup truck with serious capabilities, modern style, and ahead-of-the-curve technology? The 2022 GMC Canyon is a great option to consider! With spacious seating, impressive towing capabilities, and much more to revel in, the new Canyon is sure to take your daily driving experience to the next level.",
+            "type": "web",
+            "img": {
+                "source": canyon, 
+                "alt": "the 2022 GMC Canyon"
+            }
+        },
         "autohaus": {
             "id": 1,
             "client": "Autohaus on Edens",
