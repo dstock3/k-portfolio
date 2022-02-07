@@ -11,7 +11,6 @@ function App() {
       <Intro />
       <Portfolio />
       <Footer /> 
-      
     </div>
   );
 }
