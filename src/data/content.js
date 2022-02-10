@@ -26,6 +26,8 @@ import benz from '../assets/benz.webp'
 import audiPDF from '../assets/SantaMonicaAudi.pdf'
 import wharvesPDF from '../assets/Wharves.pdf'
 import palehoundPDF from '../assets/palehound.pdf'
+import scratchPDF from '../assets/scratch.pdf'
+import scratch from '../assets/scratch.webp'
 
 const content = {
     "Automotive Agency": {
@@ -378,6 +380,20 @@ const content = {
 
         }
 
+    },
+    "Cryptocurrency and NFTs": {
+        "scratch": {
+            "id": 24,
+            "client": "Scratch",
+            "title": "Scratch Token & The Scratch Engine, V1.5 Whitepaper",
+            "source": scratchPDF,
+            "desc": "Whether you’re a savvy investor or simply an enthusiast, chances are you’ve heard about non-fungible tokens (NFTs). NFTs are unique, one-of-a-kind digital assets that lie within the Ethereum blockchain, along with other real-world items are brought to life on the blockchain as digital assets.",
+            "type": "pdf",
+            "img": {
+                "source": scratch,
+                "alt": "the Scratch logo"
+            }
+        }
     }
 }
 
