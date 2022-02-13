@@ -58,6 +58,14 @@ footer {
   width: 55px;
 }
 
+.dec-line {
+  height: 0px;
+  width: 90%;
+  border-top: 2px solid rgba(44, 44, 44, 0.486);
+  border-bottom: 2px solid black;
+  margin-bottom: 25px;
+}
+
 @media only screen and (max-width: 850px) {
   .banner {
     height: 9rem;

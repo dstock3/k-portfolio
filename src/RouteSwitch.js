@@ -13,10 +13,10 @@ const RouteSwitch = () => {
                         } />
 
                         {
-                            Object.keys(content).map((category) =>
-                                <>
-                                    {Object.keys(content[category]).map((article)=>( 
-                                        <>
+                            Object.keys(content).map((category, index) =>
+                                <React.Fragment key={index}>
+                                    {Object.keys(content[category]).map((article, newIndex)=>( 
+                                        <React.Fragment key={newIndex}>
                                             {content[category][article].type === "pdf" ?
                                             <Route path={`/${content[category][article].id}`} key={content[category][article].id} element={
                                                 <div className="all-page-container">
@@ -24,9 +24,9 @@ const RouteSwitch = () => {
                                                 </div>
                                             } /> : null}
 
-                                        </>
+                                        </React.Fragment>
                                     ))}
-                                </>
+                                </React.Fragment>
                             )
                         }
                 </Routes>

@@ -71,28 +71,34 @@ function Portfolio(props) {
         <section className="portfolio">
             <div className="select-container">
                 {select.map((item) => (
-                    <div className="select" id={item.id} onClick={()=> selectCategory(item.text)}>{item.text}</div>
+                    <div className="select" key={item.id} id={item.id} onClick={()=> selectCategory(item.text)}>{item.text}</div>
                 ))}
             </div>
 
             {!selection.current ?
                 <>
-                    {Object.keys(content).map((category) => (
-                        <div className="category">
+                    {Object.keys(content).map((category, index) => (
+                        <div className="category" key={content[category] + index}>
                             <h3>{category}</h3>
-                                <div className="row"  style={{ justifyContent: 'center'}}>
-                                    {Object.keys(content[category]).map((article)=>(
-                                        <Card article={content[category][article]} />
-                                    ))}
-                                </div>
+
+                            <div className="dec-line"></div>
+
+                            <div className="row"  style={{ justifyContent: 'center'}}>
+                                {Object.keys(content[category]).map((article)=>(
+                                    <Card article={content[category][article]} key={content[category][article].id} />
+                                ))}
+                            </div>
                         </div>
                     ))}
                 </> :
                 <div className="category">
                     <h3>{categoryHead.current}</h3>
+
+                    <div className="dec-line"></div>
+
                     <div className="row"  style={{ justifyContent: 'center'}}>
                         {Object.keys(contentSelection).map((article)=>(
-                            <Card article={contentSelection[article]} />
+                            <Card article={contentSelection[article]} key={contentSelection[article].id} />
                         ))}
                     </div>
                 </div>
