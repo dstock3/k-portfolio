@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7566497c.css",
-    "main.js": "/static/js/main.b68ffb9f.js",
+    "main.css": "/static/css/main.ed64172a.css",
+    "main.js": "/static/js/main.10d6f43e.js",
     "static/media/banner.webp": "/static/media/banner.a85e9eec0177589a257c.webp",
     "static/media/scratch.pdf": "/static/media/scratch.c2cfcffb71ef7321e066.pdf",
     "static/media/SantaMonicaAudi.pdf": "/static/media/SantaMonicaAudi.05edc128c7e7dde3b0b2.pdf",
@@ -37,11 +37,11 @@
     "static/media/linkedin_white.svg": "/static/media/linkedin_white.3586c77f5b58ea8e4e8f6039628923ba.svg",
     "index.html": "/index.html",
     "static/media/email_black.svg": "/static/media/email_black.7be6e02d7bdf46a5f64e94b42b255696.svg",
-    "main.7566497c.css.map": "/static/css/main.7566497c.css.map",
-    "main.b68ffb9f.js.map": "/static/js/main.b68ffb9f.js.map"
+    "main.ed64172a.css.map": "/static/css/main.ed64172a.css.map",
+    "main.10d6f43e.js.map": "/static/js/main.10d6f43e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7566497c.css",
-    "static/js/main.b68ffb9f.js"
+    "static/css/main.ed64172a.css",
+    "static/js/main.10d6f43e.js"
   ]
 }
