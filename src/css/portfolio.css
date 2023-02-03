@@ -8,7 +8,7 @@
 
 .select-container {
   height: 4rem;
-  width: 85%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +71,6 @@
   box-shadow: 7px 5px 5px rgba(44, 44, 44, 0.521);
   background: rgb(233,233,233);
   background: linear-gradient(0deg, rgba(233,233,233,1) 0%, rgba(255,255,255,1) 100%);
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,6 +79,10 @@
 .writing > p {
   margin-inline: 25px;
   margin-bottom: 20px;
+}
+
+.article-image-container {
+  overflow: hidden;
 }
 
 .article-image {
@@ -113,6 +116,14 @@
   border-top: rgba(0, 0, 0, 0.397) solid 1px;
   border-bottom:  rgba(90, 90, 90, 0.322) solid 2px;
 }
+
+.writing:hover .article-image {
+  transform: scale(1.07);
+  transition: all 0.4s ease-in-out;
+  align-self: flex-start;
+  filter: grayscale(100%);
+}
+
 
 @media only screen and (max-width: 850px) {
     .row {

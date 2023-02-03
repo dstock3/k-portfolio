@@ -16,7 +16,7 @@ function Footer() {
             </div>
             
         </div>
-        <div className="copyright">Copyright © 2022 by Kayla Kinney Stockdale</div>
+        <div className="copyright">Copyright © 2023 by Kayla Kinney Stockdale</div>
         
     </footer>
   )
