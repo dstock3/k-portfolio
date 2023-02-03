@@ -1,12 +1,6 @@
 import autohaus from '../assets/autohaus.webp'
-import kellyford from '../assets/kellyford.webp'
 import ettelson from '../assets/ettelson.webp'
-import autohaus2 from '../assets/mercedes.webp'
 import wkford from '../assets/wkford.webp'
-import wkford2 from '../assets/bronco.webp'
-import audi from '../assets/audi.webp'
-import wkcdjr from '../assets/rubicon.webp'
-import audi2 from '../assets/audi2.webp'
 import aronson from '../assets/aronson.webp'
 import marketing from '../assets/marketing.webp'
 import desk from '../assets/desk.webp'
@@ -16,52 +10,44 @@ import mugger from '../assets/mugger.webp'
 import drenge from '../assets/drenge.webp'
 import fading from '../assets/fading.webp'
 import cover from '../assets/cover.webp'
-import chevy from '../assets/blazer.webp'
 import sigh from '../assets/sigh.webp'
 import artemis from '../assets/artemis.webp'
 import canyon from '../assets/canyon.webp'
-import cruz from '../assets/cruz.webp'
-import ellis from '../assets/ellis.webp'
-import benz from '../assets/benz.webp'
 import audiPDF from '../assets/SantaMonicaAudi.pdf'
 import wharvesPDF from '../assets/Wharves.pdf'
 import palehoundPDF from '../assets/palehound.pdf'
 import scratchPDF from '../assets/scratch.pdf'
 import scratch from '../assets/scratch.webp'
+import autohausPDF from '../assets/autohaus.pdf'
+import ettlesonPDF from '../assets/ettleson.pdf'
+import haggertyPDF from '../assets/haggerty.pdf'
+import wkfordPDF from '../assets/wkford.pdf'
+import aronsonPDF from '../assets/aronson.pdf'
+import personasPDF from '../assets/personas.pdf'
+import xmasPDF from '../assets/xmas.pdf'
+import xmas2PDF from '../assets/xmas2.pdf'
 
 const content = {
     "Automotive Agency": {
-        "buick": {
+        "haggerty": {
             "id": 0,
             "client": "Mike Haggerty Buick GMC",
             "title": "2022 GMC Canyon Model Information in Oak Lawn, IL",
-            "source": "https://www.haggertycars.com/research-canyon",
+            "source": haggertyPDF,
             "desc": "Interested in driving a new small pickup truck with serious capabilities, modern style, and ahead-of-the-curve technology? The 2022 GMC Canyon is a great option to consider! With spacious seating, impressive towing capabilities, and much more to revel in, the new Canyon is sure to take your daily driving experience to the next level.",
-            "type": "web",
+            "type": "pdf",
             "img": {
                 "source": canyon, 
                 "alt": "the 2022 GMC Canyon"
-            }
-        },
-        "autohaus": {
-            "id": 1,
-            "client": "Autohaus on Edens",
-            "title": "2021 Mercedes-Benz GLE SUV vs Coupe | Interior, Performance, Technology",
-            "source": "https://www.autohausonedens.com/gle-suv-vs-gle-coupe/",
-            "desc": "New vehicle pricing includes all offers. Tax, Title, Tags, and $300.00 Documentary Fee not included in vehicle prices shown and must be paid by the purchaser. While great effort is made to ensure the accuracy of the information on this site, errors do occur so please verify information with a customer service rep.",
-            "type": "web",
-            "img": {
-                "source": autohaus, 
-                "alt": "Autohaus logo"
             }
         },
         "ettleson": {
             "id": 3,
             "client": "Ettleson Hyundai",
             "title": "Hyundai Service Center Countryside, IL | Automotive Repair & Maintenance",
-            "source": "https://www.ettlesonhyundai.com/service/center.htm",
+            "source": ettlesonPDF,
             "desc": "Whether you need an oil change on your new Hyundai Elantra or 100,000-mile service on your well-loved Hyundai Tucson, you’ll want to bring your vehicle to a service center you can trust. Look no further than the Ettleson Hyundai auto service center in Countryside, IL.",
-            "type": "web",
+            "type": "pdf",
             "img": {
                 "source": ettelson, 
                 "alt": "Ettelson Hyundai logo"
@@ -71,9 +57,9 @@ const content = {
             "id": 5,
             "client": "W-K Ford",
             "title": "Used Ford Cars, Trucks & SUVs for Sale in Boonville, MO | W-K Ford",
-            "source": "https://www.wkford.com/used-inventory/ford.htm", 
+            "source": wkfordPDF, 
             "desc": "Are you looking for a used Ford car, truck, or SUV? A great place to begin your search is at W-K Ford in Boonville, MO! We have a diverse range of used Ford models for drivers to choose from. Whether you're looking for a fully-loaded F-150 or a no-frills Fusion, there's a model for you in our used inventory.",
-            "type": "web",
+            "type": "pdf",
             "img": {
                 "source": wkford, 
                 "alt": "W-K Ford logo"
@@ -95,34 +81,33 @@ const content = {
             "id": 12,
             "client": "Aronson Advertising",
             "title": "February 2019 Employee of the Month | Aronson",
-            "source": "http://aronsonads.com/blog/february-2019-employee-of-the-month/", 
+            "source": aronsonPDF, 
             "desc": "Aronson Advertising is proud to announce our February 2019 employees of the month! Each month, three outstanding team members are named an employee of the month for their hard work and dedication to their team and the company. They also receive one of the coveted employee of the month parking spots just steps from the front door.",
             "date": "02/15/2019",
-            "type": "web",
+            "type": "pdf",
             "img": {
                 "source": aronson,
                 "alt": "February 2019 Employee of the Month"
             }
+        },
+        "autohaus2": {
+            "id": 25,
+            "client": "Autohaus on Edens",
+            "title": "2022 Mercedes-Benz GLS SUV Model",
+            "source": autohausPDF,
+            "desc": "Interested in a premium SUV with roomy passenger space, advanced technology, and impressive performance? The 2022 Mercedes-Benz GLS SUV is a great choice for all types of drivers. To see if it’s the perfect luxury SUV for your needs, read through the in-depth information from the Autohaus on Edens team.",
+            "type": "pdf",
+            "img": {
+                "source": autohaus,
+                "alt": "Autohaus on Edens logo"
+            }
         }
     },
     "Content Marketing": {
-        "personas": {
-            "id": 13,
-            "client": "Aronson Advertising",
-            "title": "Leveraging Customer Personas in Your Content | Aronson Advertising",
-            "source":  "https://www.aronsonads.com/blog/customer-personas-in-your-content/",
-            "desc": "Are you looking for a way to boost your content? Whether you're looking to enhance search engine results or simply want to elevate your content, developing a customer persona strategy for your brand or clients is a sure-fire way to engage your audience and get the results you're looking for.",
-            "date": "09/15/2020",
-            "type": "web",
-            "img": {
-                "source": marketing,
-                "alt": "marketing illustration"
-            }
-        },
         "trends": {
             "id": 14,
             "client": "Aronson Advertising",
-            "title": "A Quick Look at the Biggest 2019 Content Marketing Trends | Aronson",
+            "title": "A Quick Look at the Biggest 2019 Content Marketing Trends",
             "source":  "https://www.aronsonads.com/blog/2019-content-marketing-trends/",
             "desc": "If you were to look back on content marketing strategies ten years ago, chances are you'd be scratching your head and wondering why those methods were ever used! Of course, the digital marketing landscape has changed significantly since then, and content marketers must adjust to those changes in order to create relevant, inventive, and helpful content.",
             "date": "01/29/2019",
@@ -135,7 +120,7 @@ const content = {
         "negative": {
             "id": 15,
             "client": "Aronson Advertising",
-            "title": "3 Reasons for Avoiding Negative Language in Content Marketing | Aronson",
+            "title": "3 Reasons for Avoiding Negative Language in Content Marketing",
             "source": "https://www.aronsonads.com/blog/3-reasons-avoiding-negative-language-content-marketing/",
             "desc":"At long last, the new 2021 Ford Bronco reveal is here! This legendary SUV, known for its off-road capabilities and rugged style, is back for the 2021 model year. And better yet, Ford Motor Company has an exciting premiere in store for fans and enthusiasts.",
             "date": "02/19/2018",
@@ -143,6 +128,45 @@ const content = {
             "img": {
                 "source": desk,
                 "alt": "desk with various items displayed in a decorative fashion"
+            }
+        },
+        "personas": {
+            "id": 26,
+            "client": "Aronson Advertising",
+            "title": "Leveraging Customer Personas",
+            "source": personasPDF,
+            "desc": "Are you looking for a way to boost your content? Whether you’re looking to enhance search engine results or simply want to elevate your content, developing a customer persona strategy for your brand or clients is a sure-fire way to engage your audience and get the results you’re looking for. This article takes a snapshot of the persona creation process and how you can use it to your advantage.",
+            "date": "09/15/2020",
+            "type": "pdf",
+            "img": {
+                "source": marketing,
+                "alt": "marketing illustration"
+            }
+        },
+        "xmas": {   
+            "id": 27,
+            "client": "Aronson Advertising",
+            "title": "Celebrating the Holidays at Aronson Advertising: A 2021 Recap",
+            "source": xmasPDF,
+            "desc": "The holiday season looked much different for everyone over the past couple of years. For health and safety reasons, we’ve had to come up with creative ways to see our friends and family during one of the most anticipated times of the year. Luckily, there was some relief in 2021! Although Aronson Advertising has always focused on keeping spirits high during the holidays, 2021 offered a welcome return to some in-person celebrations and volunteering opportunities, as well as many fun activities we could do from the comfort of our home offices.",
+            "date": "01/28/2022",
+            "type": "pdf",
+            "img": {
+                "source": marketing,
+                "alt": "marketing illustration"
+            }
+        },
+        "xmas2": {
+            "id": 28,
+            "client": "Aronson Advertising",
+            "title": "2022 Holiday Activities & Celebrations at Aronson Advertising!",
+            "source": xmas2PDF,
+            "desc": "The holidays seem to sneak up on us more quickly as the years go by, which only means a month of fun festivities for Aronson Advertising employees to look forward to! Going into our third year of remote working, many holiday celebrations were held through our project management platform and via email, as were posts about our holiday traditions. Plus, we also had a couple of opportunities to hang out with our co-workers in person!",
+            "date": "12/30/2022",
+            "type": "pdf",
+            "img": {
+                "source": marketing,
+                "alt": "marketing illustration"
             }
         }
     },
