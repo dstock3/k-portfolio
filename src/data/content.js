@@ -31,42 +31,6 @@ import scratch from '../assets/scratch.webp'
 
 const content = {
     "Automotive Agency": {
-        "edens": {
-            "id": 97,
-            "client": "Autohaus on Edens",
-            "title": "2022 Mercedes-Benz GLS SUV Model Information",
-            "source": "https://www.autohausonedens.com/research/gls/",
-            "desc": "Interested in a premium SUV with roomy passenger space, advanced technology, and impressive performance? The 2022 Mercedes-Benz GLS SUV is a great choice for all types of drivers. To see if it’s the perfect luxury SUV for your needs, read through the in-depth information from the Autohaus on Edens team.",
-            "type": "web",
-            "img": {
-                "source": benz, 
-                "alt": "the 2022 Mercedes-Benz GLS SUV"
-            }
-        },
-        "glendale": {
-            "id": 98,
-            "client": "Glendale Dodge Chrysler Jeep Ram",
-            "title": "2022 Hyundai Santa Cruz: SE vs. SEL vs. Limited",
-            "source": "https://www.glendaledodgecalifornia.com/research-jeep-accessories.html",
-            "desc": "Are you a Jeep owner looking to customize your vehicle? Look no further than Mopar® Jeep accessories available at Glendale Dodge Chrysler Jeep Ram. From all-weather floor mats to cargo area solutions, you can find the perfect accessory for your Jeep. Learn more about Jeep accessories for sale by reading on.",
-            "type": "web",
-            "img": {
-                "source": ellis, 
-                "alt": "Ellis logo"
-            }
-        },
-        "amato": {
-            "id": 99,
-            "client": "Amato Hyundai of Glendale",
-            "title": "2022 Hyundai Santa Cruz: SE vs. SEL vs. Limited",
-            "source": "https://www.amatohyundai.com/research/santa-cruz-trims/",
-            "desc": "Meet your match with the 2022 Hyundai Santa Cruz. This first-ever sport adventure vehicle from Hyundai is the perfect blend of SUV and pickup truck, thanks to a spacious bed, roof rails, roomy seating, and much more. Available in four trim packages, you can choose the Santa Cruz that speaks to you. Learn more about the 2022 Santa Cruz trims by reading through our in-depth research.",
-            "type": "web",
-            "img": {
-                "source": cruz, 
-                "alt": "the 2022 Hyundai Santa Cruz"
-            }
-        },
         "buick": {
             "id": 0,
             "client": "Mike Haggerty Buick GMC",
@@ -91,18 +55,6 @@ const content = {
                 "alt": "Autohaus logo"
             }
         },
-        "kelly": {
-            "id": 2,
-            "client": "Kelly Ford",
-            "title": "2021 Ford Ranger for Sale - Melbourne, FL",
-            "source": "https://www.kellyfordsales.com/research/ranger.htm",
-            "desc": "If you plan on driving your Ford Ranger frequently, ensure it matches every aspect of your personality by choosing the right exterior color. Available in a number of subtle and bright hues, the 2021 Ranger offers a customized look so you can feel confident on the road.",
-            "type": "web",
-            "img": {
-                "source": kellyford, 
-                "alt": "Kelly Ford logo"
-            }
-        },
         "ettleson": {
             "id": 3,
             "client": "Ettleson Hyundai",
@@ -112,18 +64,6 @@ const content = {
             "type": "web",
             "img": {
                 "source": ettelson, 
-                "alt": "Ettelson Hyundai logo"
-            }
-        },
-        "autohaus-two": {
-            "id": 4,
-            "client": "Autohaus on Edens",
-            "title": "2021 Mercedes-Benz E-Class | Interior, Performance, Technology",
-            "source": "https://www.autohausonedens.com/research/e-class/",
-            "desc": "For the new model year, Mercedes-Benz designers focused on upgrading exterior accents and rethinking the general look of the 2021 Mercedes-Benz E-Class Sedan.  Below, you can view some of the key available exterior features on the new 2021 Mercedes-Benz E-Class Sedan.",
-            "type": "web",
-            "img": {
-                "source": autohaus2, 
                 "alt": "Ettelson Hyundai logo"
             }
         }, 
@@ -138,18 +78,6 @@ const content = {
                 "source": wkford, 
                 "alt": "W-K Ford logo"
             }
-        }, 
-        "wkford-two": {
-            "id": 6,
-            "client": "W-K Ford",
-            "title": "2021 Ford Bronco Reveal 7/13/20 | Learn More & Reserve Yours Today",
-            "source": "https://www.wkford.com/research/bronco.htm", 
-            "desc": "At long last, the new 2021 Ford Bronco reveal is here! This legendary SUV, known for its off-road capabilities and rugged style, is back for the 2021 model year. And better yet, Ford Motor Company has an exciting premiere in store for fans and enthusiasts.",
-            "type": "web", 
-            "img": {
-                "source": wkford2,
-                "alt": "The 2021 Ford Bronco"
-            }
         },
         "santa-monica-audi": {
             "id": 7,
@@ -161,57 +89,6 @@ const content = {
             "img": {
                 "source": artemis,
                 "alt": "Banner for the Artemis Women in Action Film Festival"
-            }
-        }, 
-        "wkchevy": {
-            "id": 8,
-            "client": "W-K Chevy",
-            "title": "2019 Chevy Blazer L vs. RS vs. Premier | W-K Chevy",
-            "source": "https://www.wkchevy.com/research-blazer", 
-            "desc": "Featuring bold design and a winning performance, the 2019 Chevy Blazer is the perfect upgrade for your daily drive. This SUV offers sophisticated styling, advanced technology, and so much more for you to take advantage of. Find more details on the 2019 Blazer on this page, or contact our Chevy dealership in Sedalia, MO, online or by calling (660) 530-4723 for more information.",
-            "type": "web", 
-            "img": {
-                "source": chevy,
-                "alt": "The 2019 Chevy Blazer"
-            }
-
-        },
-        "santa-monica-audi-two": {
-            "id": 9,
-            "client": "Santa Monica Audi",
-            "title": "2019 Audi Q3 Trim Levels | Premium vs. Premium Plus vs. Prestige",
-            "source": "https://www.santamonicaaudi.com/research/q3-trims.htm", 
-            "desc": "Known for sophisticated style and breathtaking performance, the 2019 Audi Q3 SUV has so much to offer your daily routine. To further satisfy your needs, the Q3 is available in three diverse trim packages for you to choose from. Below, you will find more information about 2019 Audi Q3 trim levels so you can decide which one meets your needs.",
-            "type": "web",
-            "img": {
-                "source": audi,
-                "alt": "The 2019 Audi Q3"
-            }
-
-        }, 
-        "wkcdjr": {
-            "id": 10,
-            "client": "W-K CDJR",
-            "title": "2019 Jeep Wrangler Off-Road Capabilities | W-K CDJR",
-            "source": "https://www.wkcdjr.com/research/wrangler-off-road.htm", 
-            "desc": "Built for rugged adventures, the 2019 Jeep Wrangler is a highly-coveted off-road SUV, and for good reason. Equipped with features, systems, and accessories meant to tough out your favorite trails, the Jeep Wrangler lets you sit back and enjoy the ride.",
-            "type": "web",
-            "img": {
-                "source": wkcdjr,
-                "alt": "The 2019 Jeep Wrangler"
-            }
-
-        }, 
-        "santa-monica-audi-three": {
-            "id": 11,
-            "client": "Santa Monica Audi",
-            "title": "2019 Audi Q3 vs. 2019 Mercedes-Benz GLA 250 | Los Angeles, CA",
-            "source": "https://www.santamonicaaudi.com/research/q3-vs-gla-250.htm", 
-            "desc": "Are you looking for a luxury compact SUV, but aren't sure which model best suits your requirements? The 2019 Audi Q3 and Mercedes-Benz GLA 250 are excellent options for you to consider. They feature exceptional performance, advanced technology, and much more to offer you for a refined daily drive.",
-            "type": "web",
-            "img": {
-                "source": audi2,
-                "alt": "The 2019 Jeep Wrangler"
             }
         },
         "aronson": {
