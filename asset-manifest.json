@@ -1,27 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.ed64172a.css",
-    "main.js": "/static/js/main.10d6f43e.js",
+    "main.js": "/static/js/main.16d5afdc.js",
+    "static/media/ettleson.pdf": "/static/media/ettleson.cb27563a39e20ba77bd7.pdf",
     "static/media/banner.webp": "/static/media/banner.a85e9eec0177589a257c.webp",
     "static/media/scratch.pdf": "/static/media/scratch.c2cfcffb71ef7321e066.pdf",
     "static/media/SantaMonicaAudi.pdf": "/static/media/SantaMonicaAudi.05edc128c7e7dde3b0b2.pdf",
+    "static/media/haggerty.pdf": "/static/media/haggerty.68e475404db0e3fe2522.pdf",
+    "static/media/wkford.pdf": "/static/media/wkford.d0dcd496c8b85c4de06e.pdf",
+    "static/media/autohaus.pdf": "/static/media/autohaus.000864798c9ed232eaff.pdf",
     "static/media/palehound.pdf": "/static/media/palehound.2b9a6f5c483910a973da.pdf",
     "static/media/Wharves.pdf": "/static/media/Wharves.3729113dfd150d1aa1a1.pdf",
-    "static/media/rubicon.webp": "/static/media/rubicon.feface35c800edbe9f3c.webp",
-    "static/media/cruz.webp": "/static/media/cruz.5040f849913eb9e8dc7b.webp",
-    "static/media/benz.webp": "/static/media/benz.56b5f006a39ab1b43dfb.webp",
-    "static/media/blazer.webp": "/static/media/blazer.d8883665844cf26a7c4b.webp",
-    "static/media/mercedes.webp": "/static/media/mercedes.a029aa836a4d7e35f18c.webp",
+    "static/media/xmas2.pdf": "/static/media/xmas2.3d49ad46a965231d8ee8.pdf",
+    "static/media/aronson.pdf": "/static/media/aronson.c02fd8752814b8803e28.pdf",
+    "static/media/xmas.pdf": "/static/media/xmas.4137734a013ad3e49796.pdf",
+    "static/media/personas.pdf": "/static/media/personas.fe698dbc45354cab15be.pdf",
     "static/media/canyon.webp": "/static/media/canyon.24e69e7e741dbd13a9e0.webp",
-    "static/media/bronco.webp": "/static/media/bronco.0f5d4dcdd5dd01c314f1.webp",
     "static/media/fading.webp": "/static/media/fading.0fe4447660352fdd3acd.webp",
-    "static/media/audi.webp": "/static/media/audi.bd78b7917ff33e623851.webp",
     "static/media/mugger.webp": "/static/media/mugger.d553cc501d97d3d00c1a.webp",
     "static/media/drenge.webp": "/static/media/drenge.7cf6c85d311e1a4bdeca.webp",
     "static/media/home.webp": "/static/media/home.3a8156716823504a15b6.webp",
     "static/media/desk.webp": "/static/media/desk.043000843924b07a09a2.webp",
-    "static/media/audi2.webp": "/static/media/audi2.a68cbd7ac4660d80c688.webp",
-    "static/media/kellyford.webp": "/static/media/kellyford.26453f12b11f9303ddff.webp",
     "static/media/ettelson.webp": "/static/media/ettelson.8cd80a6cfe9ba67199c6.webp",
     "static/media/chronic.webp": "/static/media/chronic.2c6ae8be1281e067428c.webp",
     "static/media/cover.webp": "/static/media/cover.831a56887d65d96e8ee6.webp",
@@ -31,17 +30,16 @@
     "static/media/wkford.webp": "/static/media/wkford.2a80f5dcd0cdd5bc76d8.webp",
     "static/media/sigh.webp": "/static/media/sigh.e6ce36a0eaeb0fa09650.webp",
     "static/media/autohaus.webp": "/static/media/autohaus.fade4105c8f78b25b853.webp",
-    "static/media/ellis.webp": "/static/media/ellis.62912328fcbb08cd3403.webp",
     "static/media/scratch.webp": "/static/media/scratch.5297cffec02c004aa5ee.webp",
     "static/media/linkedin_black.svg": "/static/media/linkedin_black.3d23b46161202d555ad4b7cb41cc79c5.svg",
     "static/media/linkedin_white.svg": "/static/media/linkedin_white.3586c77f5b58ea8e4e8f6039628923ba.svg",
     "index.html": "/index.html",
     "static/media/email_black.svg": "/static/media/email_black.7be6e02d7bdf46a5f64e94b42b255696.svg",
     "main.ed64172a.css.map": "/static/css/main.ed64172a.css.map",
-    "main.10d6f43e.js.map": "/static/js/main.10d6f43e.js.map"
+    "main.16d5afdc.js.map": "/static/js/main.16d5afdc.js.map"
   },
   "entrypoints": [
     "static/css/main.ed64172a.css",
-    "static/js/main.10d6f43e.js"
+    "static/js/main.16d5afdc.js"
   ]
 }
