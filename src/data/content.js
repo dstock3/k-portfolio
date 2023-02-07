@@ -33,14 +33,14 @@ import autohaus3PDF from '../assets/autohaus3.pdf'
 import autohaus4PDF from '../assets/autohaus4.pdf'
 import fordPDF from '../assets/ford.pdf'
 import ford from '../assets/2022F150.webp'
-import ford2PDF from '../assets/2023FordF150.pdf'
+import ford2PDF from '../assets/ford2.pdf'
 import ford2 from '../assets/2023FordF150.webp'
 import GLASUV from '../assets/GLASUV.webp'
 import GLCSUV from '../assets/GLCSUV.webp'
 import CClass from '../assets/CClass.webp'
 import ford3PDF from '../assets/ford3.pdf'
 import ford3 from '../assets/explorer.webp'
-import ford4PDF from '../assets/ford4.pdf'
+import ford4PDF from '../assets/ford_4.pdf'
 import ford4 from '../assets/2022edge.webp'
 import ford5PDF from '../assets/ford5.pdf'
 import ford5 from '../assets/2022EcoSport.webp'
@@ -229,12 +229,6 @@ const content = {
                 "alt": "the 2023 Ford Bronco"
             }
         }
-
-
-
-
-
-
     },
     "Content Marketing": {
         "trends": {
