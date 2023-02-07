@@ -40,6 +40,12 @@ import GLCSUV from '../assets/GLCSUV.webp'
 import CClass from '../assets/CClass.webp'
 import ford3PDF from '../assets/ford3.pdf'
 import ford3 from '../assets/explorer.webp'
+import ford4PDF from '../assets/ford4.pdf'
+import ford4 from '../assets/2022edge.webp'
+import ford5PDF from '../assets/ford5.pdf'
+import ford5 from '../assets/2022EcoSport.webp'
+import ford6PDF from '../assets/ford6.pdf'
+import ford6 from '../assets/2023Bronco.webp'
 
 const content = {
     "Automotive Agency": {
@@ -185,9 +191,46 @@ const content = {
             "type": "pdf",
             "img": {
                 "source": ford3,
-                "alt": "the 2023 Ford F-150"
+                "alt": "the 2022 Ford Explorer"
+            }
+        },
+        "ford4": {
+            "id": 35,
+            "client": "Downs Ford",
+            "title": "2022 Ford Edge Review",
+            "source": ford4PDF,
+            "desc": "Looking for a new SUV to spice up your daily driving experience? The dynamic 2022 Ford Edge is a perfect option to consider. With passenger-focused features like a host of seating materials to choose from, a spacious cargo compartment built to accommodate your every need, and up to 3,500 pounds of towing capacity, you’re going to look forward to jumping behind the driver’s seat. The Downs Ford team has put together key information on the new Edge so you can make sure it’s the perfect SUV for your needs.",
+            "type": "pdf",
+            "img": {
+                "source": ford4,
+                "alt": "the 2022 Ford Edge"
+            }
+        },
+        "ford5": {
+            "id": 36,
+            "client": "Downs Ford",
+            "title": "2022 Ford EcoSport Review",
+            "source": ford5PDF,
+            "desc": "Revive your driving experience with the spirited 2022 Ford EcoSport. This compact SUV is agile enough for zipping around a major city and has plenty of stamina to withstand daily stop-and-go traffic. With 50 cubic feet of cargo space, spacious seating, and a host of amenities, you’ll feel right at home in the new EcoSport. The team at Downs Ford in Toms River, NJ, has put together the key features of the Ford EcoSport to help you figure out whether it's perfect for you.",
+            "type": "pdf",
+            "img": {
+                "source": ford5,
+                "alt": "the 2022 Ford EcoSport"
+            }
+        },
+        "ford6": {
+            "id": 37,
+            "client": "Bull Valley Ford",
+            "title": "2023 Ford Bronco Review",
+            "source": ford6PDF,
+            "desc": "Soar over all types of terrain in the off-road 2023 Ford Bronco®. This exciting rugged SUV has the equipment and attitude to tackle your local trails, hilly terrain, and everything in between. With two- and four-door models and a 4,500-pound maximum towing capacity, the Bronco is suitable for your everyday and off-day drives. Learn more about the new 2023 Ford Bronco by reading the in-depth review from Bull Valley Ford.",
+            "img": {
+                "source": ford6,
+                "alt": "the 2023 Ford Bronco"
             }
         }
+
+
 
 
 
