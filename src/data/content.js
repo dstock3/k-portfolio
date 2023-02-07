@@ -26,6 +26,20 @@ import aronsonPDF from '../assets/aronson.pdf'
 import personasPDF from '../assets/personas.pdf'
 import xmasPDF from '../assets/xmas.pdf'
 import xmas2PDF from '../assets/xmas2.pdf'
+import trendsPDF from '../assets/trends.pdf'
+import marketingPDF from '../assets/marketing.pdf'
+import autohaus2PDF from '../assets/autohaus2.pdf'
+import autohaus3PDF from '../assets/autohaus3.pdf'
+import autohaus4PDF from '../assets/autohaus4.pdf'
+import fordPDF from '../assets/ford.pdf'
+import ford from '../assets/2022F150.webp'
+import ford2PDF from '../assets/2023FordF150.pdf'
+import ford2 from '../assets/2023FordF150.webp'
+import GLASUV from '../assets/GLASUV.webp'
+import GLCSUV from '../assets/GLCSUV.webp'
+import CClass from '../assets/CClass.webp'
+import ford3PDF from '../assets/ford3.pdf'
+import ford3 from '../assets/explorer.webp'
 
 const content = {
     "Automotive Agency": {
@@ -90,7 +104,7 @@ const content = {
                 "alt": "February 2019 Employee of the Month"
             }
         },
-        "autohaus2": {
+        "autohaus": {
             "id": 25,
             "client": "Autohaus on Edens",
             "title": "2022 Mercedes-Benz GLS SUV Model",
@@ -101,17 +115,93 @@ const content = {
                 "source": autohaus,
                 "alt": "Autohaus on Edens logo"
             }
+        },
+        "autohaus2": {
+            "id": 29,
+            "client": "Autohaus on Edens",
+            "title": "2023 Mercedes-Benz GLA SUV Review",
+            "source": autohaus2PDF,
+            "desc": "Bold, refined style in a compact package: enter the 2023 Mercedes-Benz GLA SUV. With a stunning on-the-road presence, expansive cargo space, and interior amenities everyone can appreciate, the 2023 Mercedes-Benz GLA SUV has the perfect combination of features you’re looking for.",
+            "type": "pdf",
+            "img": {
+                "source": GLASUV,
+                "alt": "Autohaus on Edens logo"
+            }
+        },
+        "autohaus3": {
+            "id": 30,
+            "client": "Autohaus on Edens",
+            "title": "2023 Mercedes-Benz C-Class First Look",
+            "source": autohaus3PDF,
+            "desc": "Elegant, energetic, and perfect for daily driving, the 2023 Mercedes-Benz C-Class Sedan delivers the luxury experience you’re after. The latest model year, the 2023 Mercedes-Benz C-Class Sedan is a stellar addition to the Mercedes-Benz legacy. Autohaus on Edens has your first look at the new 2023 Mercedes-Benz C-Class Sedan to see what it has to offer. Expect this model early in 2023.",
+            "type": "pdf",
+            "img": {
+                "source": CClass,
+                "alt": "Autohaus on Edens logo"
+            }
+        },
+        "autohaus4": {
+            "id": 31,
+            "client": "Autohaus on Edens",
+            "title": "2023 Mercedes-Benz GLC SUV vs.BMW X3",
+            "source": autohaus4PDF,
+            "desc": "Are you looking for a new luxury mid-size SUV that exudes sophistication, power, and innovation? Two great options to consider are the 2022 Mercedes-Benz GLC SUV and the 2023 BMW X3. The Autohaus on Edens team has put together a comparison on both models to delve into their similarities and differences, and ultimately help you choose the right one for your needs.",
+            "type": "pdf",
+            "img": {
+                "source": GLCSUV,
+                "alt": "Autohaus on Edens logo"
+            }
+        },
+        "ford": {
+            "id": 32,
+            "client": "Downs Ford",
+            "title": "2022 Ford F-150 Review",
+            "source": fordPDF,
+            "desc": "Are you in need of added utility or do you simply like driving a pickup truck? The multi-purpose 2022 Ford F-150 has the capability, amenities, and technology you’re looking for. From 14,000 pounds of maximum towing power to innovative trailering features, there’s so much you can tackle with the F-150. Let the Downs Ford team guide you through the many benefits of this dynamic pickup truck.",
+            "type": "pdf",
+            "img": {
+                "source": ford,
+                "alt": "the 2022 Ford F-150"
+            }
+        },
+        "ford2": {
+            "id": 33,
+            "client": "Downs Ford",
+            "title": "2023 Ford F-150 Review",
+            "source": ford2PDF,
+            "desc": "Whether you’re in need of a work truck or prefer the benefits of pickup trucks, the 2023 Ford F-150 is sure to suit your needs. With a host of cab and bed configurations and innovative towing technologies, the F-150 has modern solutions for your everyday tasks. The Bull Valley Ford team has the details on the new 2023 Ford F-150 to help you become more familiar.",
+            "type": "pdf",
+            "img": {
+                "source": ford2,
+                "alt": "the 2023 Ford F-150"
+            }
+        },
+        "ford3": {
+            "id": 34,
+            "client": "Downs Ford",
+            "title": "2022 Ford Explorer Review",
+            "source": ford3PDF,
+            "desc": "Take on your daily drive in the 2022 Ford Explorer, a three-row SUV that adapts to your needs. From 87.7 cubic feet of cargo space to rugged off-road capabilities to a maximum towing capacity of 5,600 pounds, you’ll receive a stellar driving experience. Learn more about the new Explorer to see what else it has to offer — the Downs Ford team has put together a comprehensive review to help you become more familiar with its expansive feature lineup.",
+            "type": "pdf",
+            "img": {
+                "source": ford3,
+                "alt": "the 2023 Ford F-150"
+            }
         }
+
+
+
+
     },
     "Content Marketing": {
         "trends": {
             "id": 14,
             "client": "Aronson Advertising",
             "title": "A Quick Look at the Biggest 2019 Content Marketing Trends",
-            "source":  "https://www.aronsonads.com/blog/2019-content-marketing-trends/",
+            "source":  trendsPDF,
             "desc": "If you were to look back on content marketing strategies ten years ago, chances are you'd be scratching your head and wondering why those methods were ever used! Of course, the digital marketing landscape has changed significantly since then, and content marketers must adjust to those changes in order to create relevant, inventive, and helpful content.",
             "date": "01/29/2019",
-            "type": "web",
+            "type": "pdf",
             "img": {
                 "source": marketing,
                 "alt": "marketing illustration"
@@ -121,10 +211,10 @@ const content = {
             "id": 15,
             "client": "Aronson Advertising",
             "title": "3 Reasons for Avoiding Negative Language in Content Marketing",
-            "source": "https://www.aronsonads.com/blog/3-reasons-avoiding-negative-language-content-marketing/",
+            "source": marketingPDF,
             "desc":"At long last, the new 2021 Ford Bronco reveal is here! This legendary SUV, known for its off-road capabilities and rugged style, is back for the 2021 model year. And better yet, Ford Motor Company has an exciting premiere in store for fans and enthusiasts.",
             "date": "02/19/2018",
-            "type": "web",
+            "type": "pdf",
             "img": {
                 "source": desk,
                 "alt": "desk with various items displayed in a decorative fashion"
