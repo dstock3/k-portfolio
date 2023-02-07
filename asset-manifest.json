@@ -1,20 +1,40 @@
 {
   "files": {
     "main.css": "/static/css/main.d01f3e83.css",
-    "main.js": "/static/js/main.a82778d6.js",
+    "main.js": "/static/js/main.5fb28edf.js",
+    "static/media/2023FordF150.pdf": "/static/media/2023FordF150.394cfbf6d199bd42cf43.pdf",
+    "static/media/ford4.pdf": "/static/media/ford4.12b35dffb82908b1ca8c.pdf",
+    "static/media/ford.pdf": "/static/media/ford.b07c6b708fcc4ee7c5e9.pdf",
+    "static/media/ford5.pdf": "/static/media/ford5.e3ec567d8b2a1694db8d.pdf",
+    "static/media/ford3.pdf": "/static/media/ford3.e20f2de82019ea36c19c.pdf",
     "static/media/ettleson.pdf": "/static/media/ettleson.cb27563a39e20ba77bd7.pdf",
+    "static/media/ford6.pdf": "/static/media/ford6.0c07e9e5dcc83a672890.pdf",
     "static/media/banner.webp": "/static/media/banner.a85e9eec0177589a257c.webp",
     "static/media/scratch.pdf": "/static/media/scratch.c2cfcffb71ef7321e066.pdf",
     "static/media/SantaMonicaAudi.pdf": "/static/media/SantaMonicaAudi.05edc128c7e7dde3b0b2.pdf",
     "static/media/haggerty.pdf": "/static/media/haggerty.68e475404db0e3fe2522.pdf",
     "static/media/wkford.pdf": "/static/media/wkford.d0dcd496c8b85c4de06e.pdf",
+    "static/media/explorer.webp": "/static/media/explorer.3de5babb578ddfb28fde.webp",
+    "static/media/2022F150.webp": "/static/media/2022F150.6dd2543d112789e8b5eb.webp",
+    "static/media/autohaus2.pdf": "/static/media/autohaus2.b09318940d20aae3604d.pdf",
     "static/media/autohaus.pdf": "/static/media/autohaus.000864798c9ed232eaff.pdf",
+    "static/media/2023Bronco.webp": "/static/media/2023Bronco.bfdeeea23bd74f06f88d.webp",
     "static/media/palehound.pdf": "/static/media/palehound.2b9a6f5c483910a973da.pdf",
+    "static/media/CClass.webp": "/static/media/CClass.58fa7979a47209cd29a3.webp",
+    "static/media/2022EcoSport.webp": "/static/media/2022EcoSport.76d79373296689808475.webp",
     "static/media/Wharves.pdf": "/static/media/Wharves.3729113dfd150d1aa1a1.pdf",
+    "static/media/autohaus4.pdf": "/static/media/autohaus4.f20c9428da36b715ac5c.pdf",
+    "static/media/GLASUV.webp": "/static/media/GLASUV.09277eb48ef297bc61f4.webp",
+    "static/media/2023FordF150.webp": "/static/media/2023FordF150.3b439cc7ff70d52e65b8.webp",
+    "static/media/autohaus3.pdf": "/static/media/autohaus3.3af539b65a287769303a.pdf",
     "static/media/xmas2.pdf": "/static/media/xmas2.3d49ad46a965231d8ee8.pdf",
+    "static/media/GLCSUV.webp": "/static/media/GLCSUV.54b76f41c4c190b8ad13.webp",
+    "static/media/marketing.pdf": "/static/media/marketing.8f01a802c2812877c238.pdf",
     "static/media/aronson.pdf": "/static/media/aronson.c02fd8752814b8803e28.pdf",
+    "static/media/2022edge.webp": "/static/media/2022edge.32462e3f08be04b052b6.webp",
     "static/media/xmas.pdf": "/static/media/xmas.4137734a013ad3e49796.pdf",
     "static/media/personas.pdf": "/static/media/personas.fe698dbc45354cab15be.pdf",
+    "static/media/trends.pdf": "/static/media/trends.19b9d731d7c8866a2c83.pdf",
     "static/media/canyon.webp": "/static/media/canyon.24e69e7e741dbd13a9e0.webp",
     "static/media/fading.webp": "/static/media/fading.0fe4447660352fdd3acd.webp",
     "static/media/mugger.webp": "/static/media/mugger.d553cc501d97d3d00c1a.webp",
@@ -36,10 +56,10 @@
     "static/media/linkedin_white.svg": "/static/media/linkedin_white.3586c77f5b58ea8e4e8f6039628923ba.svg",
     "static/media/email_black.svg": "/static/media/email_black.7be6e02d7bdf46a5f64e94b42b255696.svg",
     "main.d01f3e83.css.map": "/static/css/main.d01f3e83.css.map",
-    "main.a82778d6.js.map": "/static/js/main.a82778d6.js.map"
+    "main.5fb28edf.js.map": "/static/js/main.5fb28edf.js.map"
   },
   "entrypoints": [
     "static/css/main.d01f3e83.css",
-    "static/js/main.a82778d6.js"
+    "static/js/main.5fb28edf.js"
   ]
 }
