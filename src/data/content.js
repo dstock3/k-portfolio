@@ -46,6 +46,10 @@ import ford5PDF from '../assets/ford5.pdf'
 import ford5 from '../assets/2022EcoSport.webp'
 import ford6PDF from '../assets/ford6.pdf'
 import ford6 from '../assets/2023Bronco.webp'
+import cdjrPDF from '../assets/cdjr.pdf'
+import cdjr from '../assets/2022charger.webp'
+import cdjr2PDF from '../assets/cdjr2.pdf'
+import cdjr2 from '../assets/2022cherokee.webp'
 
 const content = {
     "Automotive Agency": {
@@ -228,7 +232,32 @@ const content = {
                 "source": ford6,
                 "alt": "the 2023 Ford Bronco"
             }
-        }
+        
+        },
+        "cdjr": {
+            "id": 38,
+            "client": "Glendale DCJR",
+            "title": "2022 Dodge Charger Lease Deal",
+            "source": cdjrPDF,
+            "desc": "The decision to lease a new Dodge Charger is a significant one, so let the Glendale Dodge Chrysler Jeep Ram team guide you through common questions that many drivers just like you have. If you have any additional questions for our Dodge dealership in Glendale, CA, please don’t hesitate to contact us online or by phone at (818) 242-4161. You can also schedule a Charger test drive to begin your leasing journey.",
+            "type": "pdf",
+            "img": {
+                "source": cdjr,
+                "alt": "the 2022 Dodge Charger"
+            }
+        },
+        "cdjr2": {
+            "id": 39,
+            "client": "Glendale DCJR",
+            "title": "2022 Jeep Cherokee Review",
+            "source": cdjr2PDF,
+            "desc": "Blending rugged capability with sleek and sophisticated design, the timeless 2022 Jeep Cherokee mid-size SUV is an excellent option for those who need an everyday vehicle that’s also built for adventure. With the ability to tow up to 4,500 pounds, a spacious cargo area, and the latest technology, the Cherokee will no doubt meet your expectations and beyond. Learn more about it with the information put together by the team at Glendale Dodge Chrysler Jeep Ram. You can start your Cherokee journey by viewing our new inventory below.",
+            "type": "pdf",
+            "img": {
+                "source": cdjr2,
+                "alt": "the 2022 Jeep Cherokee"
+            }
+        },
     },
     "Content Marketing": {
         "trends": {
