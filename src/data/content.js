@@ -50,6 +50,14 @@ import cdjrPDF from '../assets/cdjr.pdf'
 import cdjr from '../assets/2022charger.webp'
 import cdjr2PDF from '../assets/cdjr2.pdf'
 import cdjr2 from '../assets/2022cherokee.webp'
+import kiaPDF from '../assets/kia.pdf'
+import kia from '../assets/2023telluride.webp'
+import kia2PDF from '../assets/kia2.pdf'
+import kia2 from '../assets/k5.webp'
+import nissanPDF from '../assets/nissan.pdf'
+import nissan from '../assets/2023murano.webp'
+import nissan2PDF from '../assets/nissan2.pdf'
+import nissan2 from '../assets/2023pathfinder.webp'
 
 const content = {
     "Automotive Agency": {
@@ -258,6 +266,54 @@ const content = {
                 "alt": "the 2022 Jeep Cherokee"
             }
         },
+        "kia": {
+            "id": 40,
+            "client": "Southlake Kia",
+            "title": "2023 Kia Telluride Review",
+            "source": kiaPDF,
+            "desc": "Offering one-of-a-kind style, smart technology, and power-boosting performance, the mid-size 2023 Kia Telluride is sure to deliver a memorable driving experience. With seven to eight seats, 87 cubic feet of cargo space, and a host of passenger-focused amenities, there’s something for everyone in the new Telluride. Let the team at Southlake Kia help you learn more about this dynamic SUV — continue reading to get started!",
+            "type": "pdf",
+            "img": {
+                "source": kia,
+                "alt": "the 2023 Kia Telluride"
+            }
+        },
+        "kia2": {
+            "id": 41,
+            "client": "Southlake Kia",
+            "title": "2023 Kia Forte vs. K5",
+            "source": kia2PDF,
+            "desc": "Are you looking for a new Kia sedan but aren’t sure which one is right for you? The Southlake Kia team is here to help! In this comparison article, we explore the compact 2023 Kia Forte and mid-size 2023 Kia K5 to assist you in learning more about each model. From safety features to performance capabilities to advanced technology, you’ll find the information necessary to make a confident decision.",
+            "type": "pdf",
+            "img": {
+                "source": kia2,
+                "alt": "the 2023 Kia K5"
+            }
+        },
+        "nissan": {
+            "id": 42,
+            "client": "Southlake Nissan",
+            "title": "2023 Nissan Murano Review",
+            "source": nissanPDF,
+            "desc": "Are you in the market for a premium SUV that’s also practical enough for daily driving? A great option is the 2023 Nissan Murano, available at Southlake Nissan in Merrillville, IN. This attention-grabbing SUV is powered by a V6 engine, has 67 cubic feet of cargo space, and features the latest technology to boost your driving experience. Continue reading to learn more about what the Murano has to offer — the product specialists at Southlake Nissan have provided key information for your convenience.",
+            "type": "pdf",
+            "img": {
+                "source": nissan,
+                "alt": "the 2023 Nissan Murano"
+            }
+        },
+        "nissan2": {
+            "id": 43,
+            "client": "Southlake Nissan",
+            "title": "2023 Nissan Pathfinder Review",
+            "source": nissan2PDF,
+            "desc": "Offering adventure and practicality, the exciting 2023 Nissan Pathfinder SUV is sure to level up your driving experience. With seating for seven or eight passengers, 80.5 cubic feet of cargo space, and a maximum towing capacity of 6,000 pounds, the Nissan Pathfinder delivers the flexibility and power you’re in need of. Continue reading this article with information compiled by Southlake Nissan to learn more about the new Pathfinder.",
+            "type": "pdf",
+            "img": {
+                "source": nissan2,
+                "alt": "the 2023 Nissan Pathfinder"
+            }
+        }
     },
     "Content Marketing": {
         "trends": {
