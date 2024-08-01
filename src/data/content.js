@@ -58,6 +58,23 @@ import nissanPDF from '../assets/nissan.pdf'
 import nissan from '../assets/2023murano.webp'
 import nissan2PDF from '../assets/nissan2.pdf'
 import nissan2 from '../assets/2023pathfinder.webp'
+import CCI1 from "../assets/CCI1.jpeg"
+import CCI2 from "../assets/CCI2.jpeg"
+import CCI3 from "../assets/CCI3.jpeg"
+import CCI4 from "../assets/CCI4.jpeg"
+import CCI5 from "../assets/CCI5.jpeg"
+import CCI6 from "../assets/CCI6.jpeg"
+import CCI7 from "../assets/CCI7.png"
+import CCI8 from "../assets/CCI8.jpeg"
+import CCI9 from "../assets/CCI9.jpeg"
+import CCI10 from "../assets/CCI10.jpeg"
+import CCI11 from "../assets/CCI11.jpeg"
+import CCI12 from "../assets/CCI12.jpeg"
+import CCI13 from "../assets/CCI13.jpeg"
+import CCI14 from "../assets/CCI14.jpeg"
+import CCI15 from "../assets/CCI15.jpeg"
+import CCI16 from "../assets/CCI16.jpeg"
+import CCI17 from "../assets/CCI17.jpeg"
 
 const content = {
     "Automotive Agency": {
@@ -518,8 +535,8 @@ const content = {
             "type": "web",
             "date": "02/01/2024",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI1,
+                "alt": "employees participating in CCI Cares"
             },
         },
         "metro": {
@@ -531,21 +548,21 @@ const content = {
             "type": "web",
             "date": "02/01/2024",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI2,
+                "alt": "Metro Connect promotion"
             }
         },
         "summit": {
             "id": 27,
             "client": "CCI",
-            "title": "Texas A&M Tech Summit",
+            "title": "The Texas A&M Tech Summit",
             "source": "https://www.linkedin.com/posts/consolidated-communications_consolidatedcommunications-cci-tamusystem-activity-7164386913917890561-0uN5?utm_source=share&utm_medium=member_desktop",
-            "desc": "​​Consolidated Communications is a gold sponsor at this year’s Texas A&M Tech Summit in Frisco! We’re excited to meet with our peers to discuss our networking solutions for the Texas higher education space. From small requests to larger needs, Consolidated experts can create the perfect design."​,
+            "desc": "Consolidated Communications is a gold sponsor at this year’s Texas A&M Tech Summit in Frisco! We’re excited to meet with our peers to discuss our networking solutions for the Texas higher education space. From small requests to larger needs, Consolidated experts can create the perfect design.",
             "type": "web",
             "date": "02/15/2024",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI3,
+                "alt": "Tech Summit promotion"
             }
         },
         "conf": {
@@ -557,8 +574,8 @@ const content = {
             "type": "web",
             "date": "02/15/2024",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI4,
+                "alt": "A speaker at the CCI Sales Conference"
             }
         },
         "": {
@@ -570,8 +587,8 @@ const content = {
             "type": "web",
             "date": "02/05/2024",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI5,
+                "alt": "graphic representation of technical advancements in warehouse environment"
             }
         },
         "telecom": {
@@ -583,8 +600,8 @@ const content = {
             "type": "web",
             "date": "02/05/2024",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI6,
+                "alt": "PTC in scenic Honolulu"
             }
         },
         "proconnect": {
@@ -596,8 +613,8 @@ const content = {
             "type": "web",
             "date": "01/01/2024",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI7,
+                "alt": "ProConnect promotion"
             }
         },
         "fiber": {
@@ -609,11 +626,11 @@ const content = {
             "type": "web",
             "date": "12/01/2023",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI8,
+                "alt": "telecom upgrades in winter"
             }
-        },
-        "": {
+        }, 
+        "divide": {
             "id": 33,
             "client": "CCI",
             "title": "The Digital Divide",
@@ -622,8 +639,8 @@ const content = {
             "type": "web",
             "date": "12/15/2023",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI9,
+                "alt": "fierce innovation awards promotion"
             }
         },
         "": {
@@ -633,10 +650,10 @@ const content = {
             "source": "https://www.linkedin.com/posts/consolidated-communications_southernvermont-cud-ruralinternet-activity-7135271874611052544-mDlh?utm_source=share&utm_medium=member_desktop",
             "desc": "​​This past month, the Vermont Community Broadband Board (VCBB) awarded almost $60 million in rural broadband grants to communication union districts (CUDs), including two Consolidated Communications CUDs: Otter Creek, which was awarded almost $10 million, and Lamoille FiberNet, which was awarded almost $13.6 million. ​",
             "type": "web",
-            "date": "",
+            "date": "12/15/2024",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI10,
+                "alt": "rural broadband grants to communication union districts"
             }
         },
         "way": {
@@ -648,8 +665,8 @@ const content = {
             "type": "web",
             "date": "11/01/2023",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI11,
+                "alt": "United Way volunteer opportunities"
             }
         },
         "summit": {
@@ -661,8 +678,8 @@ const content = {
             "type": "web",
             "date": "11/01/2023",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI12,
+                "alt": "Greater Houston Women's Chamber of Commerce logo"
             }
         },
         "opp": {
@@ -674,8 +691,8 @@ const content = {
             "type": "web",
             "date": "10/01/2023",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI13,
+                "alt": "Regional Fiber Connect in Minneapolis"
             }
         },
         "connect": {
@@ -687,8 +704,8 @@ const content = {
             "type": "web",
             "date": "10/01/2023",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI14,
+                "alt": "houses in Madison, Maine"
             }
         },
         "cologix": {
@@ -700,8 +717,8 @@ const content = {
             "type": "web",
             "date": "10/01.2023",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI15,
+                "alt": "the Cologix Minneapolis Connect event"
             }
         },
         "sales": {
@@ -713,8 +730,8 @@ const content = {
             "type": "web",
             "date": "10/05/2023",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI16,
+                "alt": "Elevate Your Sales Game Webinar"
             }
         },
         "scansource": {
@@ -726,10 +743,10 @@ const content = {
             "type": "web",
             "date": "10/15/2023",
             "img": {
-                "source": "",
-                "alt": ""
+                "source": CCI17,
+                "alt": "ScanSource Channel Connect promotion"
             }
-        },
+        }
     }
 }
 
