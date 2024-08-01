@@ -60,6 +60,20 @@ import nissan2PDF from '../assets/nissan2.pdf'
 import nissan2 from '../assets/2023pathfinder.webp'
 
 const content = {
+    "Social Media": {
+        "test 1": {
+            "id": 1,
+            "client": "",
+            "title": "",
+            "source": "",
+            "desc": "",
+            "type": "",
+            "img": {
+                "source": "",
+                "alt": ""
+            }
+        }
+    },
     "Automotive Agency": {
         "haggerty": {
             "id": 0,

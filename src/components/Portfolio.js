@@ -4,12 +4,13 @@ import { content } from '../data/content.js'
 import '../css/portfolio.css'
 
 function Portfolio(props) {
-    const [select, setSelect] = useState([{text: "All", id: "all"}, {text: "Automotive Agency", id: "auto"}, {text: "Content Marketing", id: "marketing"}, {text: "Personal Finance", id: "finance"}, {text: "Music", id: "music"}, {text: "Cryptocurrency and NFTs", id: "crypto"}])
-    const [auto, setAuto] = useState(content[select[1].text])
-    const [marketing, setMarketing] = useState(content[select[2].text])
-    const [finance, setFinance] = useState(content[select[3].text])
-    const [music, setMusic] = useState(content[select[4].text])
-    const [crypto, setCrypto] = useState(content[select[5].text])
+    const [select, setSelect] = useState([{text: "All", id: "all"}, {text: "Social Media", id: "social"}, {text: "Automotive Agency", id: "auto"}, {text: "Content Marketing", id: "marketing"}, {text: "Personal Finance", id: "finance"}, {text: "Music", id: "music"}, {text: "Cryptocurrency and NFTs", id: "crypto"}])
+    const [social, setSocial] = useState(content[select[1].text])
+    const [auto, setAuto] = useState(content[select[2].text])
+    const [marketing, setMarketing] = useState(content[select[3].text])
+    const [finance, setFinance] = useState(content[select[4].text])
+    const [music, setMusic] = useState(content[select[5].text])
+    const [crypto, setCrypto] = useState(content[select[6].text])
     const [contentSelection, setContentSelection] = useState(content)
     const selection = useRef(false);
     const categoryHead = useRef(null)
@@ -19,6 +20,10 @@ function Portfolio(props) {
             case "All":
                 setContentSelection(content);
                 selection.current = false
+                break;
+            case "Social Media":
+                setContentSelection(social);
+                selection.current = true
                 break;
             case "Automotive Agency":
                 setContentSelection(auto);
