@@ -531,7 +531,7 @@ const content = {
             "client": "CCI",
             "title": "Impactful Volunteerism in 2023",
             "source": "https://www.linkedin.com/posts/consolidated-communications_cci-consolidatedcommunications-ccicares-activity-7165737886963748865-QpKv?utm_source=share&utm_medium=member_desktop",
-            "desc": "Consolidated Communications is proud to forge a company culture that values giving back to the communities we serve. Each year, our dedicated employees participate in CCI Cares, our company volunteerism program, to help uplift the people in their communities. From food pantry aides to youth group leaders, the opportunities for CCI employees are endless!​",
+            "desc": "Consolidated Communications is proud to forge a company culture that values giving back to the communities we serve. Each year, our dedicated employees participate in CCI Cares, our company volunteerism program, to help uplift the people...​",
             "type": "web",
             "date": "02/01/2024",
             "img": {
@@ -544,7 +544,7 @@ const content = {
             "client": "CCI",
             "title": "The 23rd Annual Metro Connect USA",
             "source": "https://www.linkedin.com/posts/consolidated-communications_consolidatedcommunications-metroconnectusa-activity-7166583445899370496-3Un1?utm_source=share&utm_medium=member_desktop",
-            "desc": "​The Consolidated Carrier team is excited to attend the 23rd annual Metro Connect USA at the Fort Lauderdale Marriott Harbor Beach Resort and Spa! This is the most important annual meeting for the US digital infrastructure community and a premier event for leadership teams across the US fiber market. Attendees can build new partnerships, renew agreements and learn about the future state of the industry.​",
+            "desc": "​The Consolidated Carrier team is excited to attend the 23rd annual Metro Connect USA at the Fort Lauderdale Marriott Harbor Beach Resort and Spa! This is the most important annual meeting for the US digital infrastructure community and a premier event for leadership teams across...​",
             "type": "web",
             "date": "02/01/2024",
             "img": {
@@ -552,12 +552,12 @@ const content = {
                 "alt": "Metro Connect promotion"
             }
         },
-        "summit": {
+        "texas": {
             "id": 27,
             "client": "CCI",
             "title": "The Texas A&M Tech Summit",
             "source": "https://www.linkedin.com/posts/consolidated-communications_consolidatedcommunications-cci-tamusystem-activity-7164386913917890561-0uN5?utm_source=share&utm_medium=member_desktop",
-            "desc": "Consolidated Communications is a gold sponsor at this year’s Texas A&M Tech Summit in Frisco! We’re excited to meet with our peers to discuss our networking solutions for the Texas higher education space. From small requests to larger needs, Consolidated experts can create the perfect design.",
+            "desc": "Consolidated Communications is a gold sponsor at this year’s Texas A&M Tech Summit in Frisco! We’re excited to meet with our peers to discuss our networking solutions for the Texas higher education space. From small requests to larger needs...",
             "type": "web",
             "date": "02/15/2024",
             "img": {
@@ -583,7 +583,7 @@ const content = {
             "client": "CCI",
             "title": "Enhanced Technology Within the Retail Industry",
             "source": "https://www.linkedin.com/posts/consolidated-communications_consolidatedcommunications-retailers-advancedtechnology-activity-7160783155380023297-qp2e?utm_source=share&utm_medium=member_desktop",
-            "desc": "​​Are you a retailer looking for ways to implement advanced technology into your business? In this week’s blog, we delve into the importance of enhanced technology within the retail industry. We discuss tools and strategies that can help you improve customer satisfaction, adapt to constantly-changing consumer behavior and keep a closer eye on inventory and supply chains.",
+            "desc": "​​Are you a retailer looking for ways to implement advanced technology into your business? In this week’s blog, we delve into the importance of enhanced technology within the retail industry. We discuss tools and strategies that can help you improve customer satisfaction...",
             "type": "web",
             "date": "02/05/2024",
             "img": {
@@ -609,7 +609,7 @@ const content = {
             "client": "CCI",
             "title": "ProConnect",
             "source": "https://www.linkedin.com/posts/consolidated-communications_proconnect-revolutionizing-business-communication-activity-7150937475513765888-PtXv?utm_source=share&utm_medium=member_desktop",
-            "desc": "​​Do you have the right tools to get the job done? Upgrade to Consolidated Communication's ProConnect to help your business succeed! With ProConnect business communication tools, you'll receive fast fiber Internet, full feature phone service and new equipment, as well as a customer service team that's available 24/7. Revolutionize your business by choosing ProConnect today!​",
+            "desc": "​​Do you have the right tools to get the job done? Upgrade to Consolidated Communication's ProConnect to help your business succeed! With ProConnect business communication tools, you'll receive fast fiber Internet, full feature phone service and new equipment...​",
             "type": "web",
             "date": "01/01/2024",
             "img": {
@@ -635,7 +635,7 @@ const content = {
             "client": "CCI",
             "title": "The Digital Divide",
             "source": "https://www.linkedin.com/posts/consolidated-communications_fiercetelecom-fiercetelecominnovationawards-activity-7140095490490056704-5n--?utm_source=share&utm_medium=member_desktop",
-            "desc": "​​We're excited to announce that Consolidated Communications is a finalist in the Digital Divide category for the Fierce Telecom Innovation Awards! The Digital Divide category highlights telecom companies that help make broadband more accessible and affordable to underserved areas and communities. Consolidated is in the running for our work bringing multigigabit fiber internet to more than 20,000 homes and businesses in rural Vermont along with the Southern Vermont CUD.",
+            "desc": "​​We're excited to announce that Consolidated Communications is a finalist in the Digital Divide category for the Fierce Telecom Innovation Awards! The Digital Divide category highlights telecom companies that help make broadband more...",
             "type": "web",
             "date": "12/15/2023",
             "img": {
@@ -643,12 +643,12 @@ const content = {
                 "alt": "fierce innovation awards promotion"
             }
         },
-        "": {
+        "grants": {
             "id": 34,
             "client": "CCI",
             "title": "Rural Broadband Grants",
             "source": "https://www.linkedin.com/posts/consolidated-communications_southernvermont-cud-ruralinternet-activity-7135271874611052544-mDlh?utm_source=share&utm_medium=member_desktop",
-            "desc": "​​This past month, the Vermont Community Broadband Board (VCBB) awarded almost $60 million in rural broadband grants to communication union districts (CUDs), including two Consolidated Communications CUDs: Otter Creek, which was awarded almost $10 million, and Lamoille FiberNet, which was awarded almost $13.6 million. ​",
+            "desc": "​​This past month, the Vermont Community Broadband Board (VCBB) awarded almost $60 million in rural broadband grants to communication union districts (CUDs), including two Consolidated Communications CUDs: Otter Creek, which was awarded almost $10 million... ​",
             "type": "web",
             "date": "12/15/2024",
             "img": {
@@ -687,7 +687,7 @@ const content = {
             "client": "CCI",
             "title": "How Fiber Impacts Economics and Opportunity",
             "source": "https://www.linkedin.com/posts/consolidated-communications_rfc23-fiberbroadband-fiberoptics-activity-7125239052114571264-pDly?utm_source=share&utm_medium=member_desktop",
-            "desc": "​​Consolidated Communications recently participated in Fiber Broadband Association's Regional Fiber Connect in Minneapolis. Jennifer Spaude, Senior Vice President of Corporate Communications, shared insights on a panel \"The Community Connection: How Fiber Impacts Economics and Opportunity,\" and examples highlighting the significance of fiber connectivity as a positive catalyst for economic growth, education, entrepreneurship, remote work and housing values.",
+            "desc": "​​Consolidated Communications recently participated in Fiber Broadband Association's Regional Fiber Connect in Minneapolis. Jennifer Spaude, Senior Vice President of Corporate Communications, shared insights on a panel \"The Community Connection: How Fiber Impacts Economics and Opportunity,\" and examples highlighting the significance of...",
             "type": "web",
             "date": "10/01/2023",
             "img": {
@@ -739,7 +739,7 @@ const content = {
             "client": "CCI",
             "title": " ScanSource Channel Connect",
             "source": "https://www.linkedin.com/posts/consolidated-communications_channelconnect2023-intelisys-networking-activity-7118725640215830528-Rtcn?utm_source=share&utm_medium=member_desktop",
-            "desc": "​​Consolidated Communications is excited to be attending ScanSource Channel Connect next week in sunny Orlando, Florida! Featuring keynote speakers, educational services, hands-on demonstrations and networking opportunities, ScanSource Channel Connect is the largest distributor event in the channel and a celebration of ScanSource's dedication to their partners.​",
+            "desc": "​​Consolidated Communications is excited to be attending ScanSource Channel Connect next week in sunny Orlando, Florida! Featuring keynote speakers, educational services, hands-on demonstrations and networking opportunities, ScanSource Channel Connect is the largest distributor event...​",
             "type": "web",
             "date": "10/15/2023",
             "img": {
