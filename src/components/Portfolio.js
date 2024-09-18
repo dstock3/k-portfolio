@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Card from './Card.js';
 import { content } from '../data/content.js'
 import '../css/portfolio.css'
@@ -12,47 +12,50 @@ function Portfolio(props) {
     const [music, setMusic] = useState(content[select[5].text])
     const [crypto, setCrypto] = useState(content[select[6].text])
     const [contentSelection, setContentSelection] = useState(content)
-    const selection = useRef(false);
-    const categoryHead = useRef(null)
+    const [categoryHead, setCategoryHead] = useState("All")
+    const [selection, setSelection] = useState(false)
 
     const selectCategory = (item, content) => {
         switch(item) {
             case "All":
                 setContentSelection(content);
-                selection.current = false
+                setSelection(false);
+                setCategoryHead("All");
                 break;
             case "Social Media":
                 setContentSelection(social);
-                selection.current = true
+                setSelection(true);
+                setCategoryHead("Social Media");
                 break;
             case "Automotive Agency":
                 setContentSelection(auto);
-                selection.current = true
-                categoryHead.current = select[1].text
+                setSelection(true);
+                setCategoryHead("Automotive Agency");
                 break;
             case "Content Marketing":
                 setContentSelection(marketing);
-                categoryHead.current = select[2].text
-                selection.current = true
+                setSelection(true);
+                setCategoryHead("Content Marketing");
                 break;
             case "Personal Finance":
                 setContentSelection(finance);
-                categoryHead.current = select[3].text
-                selection.current = true
+                setSelection(true);
+                setCategoryHead("Personal Finance");
                 break;
             case "Music":
                 setContentSelection(music);
-                selection.current = true
-                categoryHead.current = select[4].text
+                setSelection(true);
+                setCategoryHead("Music");
                 break;
             case "Cryptocurrency and NFTs":
                 setContentSelection(crypto);
-                selection.current = true
-                categoryHead.current = select[5].text
+                setSelection(true);
+                setCategoryHead("Cryptocurrency and NFTs");
                 break;
             default:
                 setContentSelection(content);
-                selection.current = false
+                setSelection(false);
+                setCategoryHead("All");
                 break;
         }   
     }
@@ -76,11 +79,11 @@ function Portfolio(props) {
         <section className="portfolio">
             <div className="select-container">
                 {select.map((item) => (
-                    <div className="select" key={item.id} id={item.id} onClick={()=> selectCategory(item.text)}>{item.text}</div>
+                    <div className="select" key={item.id} id={item.id} onClick={()=> selectCategory(item.text, content)}>{item.text}</div>
                 ))}
             </div>
 
-            {!selection.current ?
+            {!selection ?
                 <>
                     {Object.keys(content).map((category, index) => (
                         <div className="category" key={content[category] + index}>
@@ -97,7 +100,7 @@ function Portfolio(props) {
                     ))}
                 </> :
                 <div className="category">
-                    <h3>{categoryHead.current}</h3>
+                    <h3>{categoryHead}</h3>
 
                     <div className="dec-line"></div>
 
